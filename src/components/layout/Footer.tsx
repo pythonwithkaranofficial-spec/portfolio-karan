@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowUp, Github, Linkedin, Mail, Heart } from "lucide-react";
 import { PROFILE } from "@/data/portfolioData";
 
@@ -46,11 +47,11 @@ export default function Footer() {
               Navigation
             </h4>
             <ul className="space-y-2.5 text-sm text-slate-400">
-              <li><a href="#hero" className="hover:text-blue-400 transition-colors">Home</a></li>
-              <li><a href="#about" className="hover:text-blue-400 transition-colors">About Story</a></li>
-              <li><a href="#skills" className="hover:text-blue-400 transition-colors">Technical Skills</a></li>
-              <li><a href="#experience" className="hover:text-blue-400 transition-colors">Experience</a></li>
-              <li><a href="#projects" className="hover:text-blue-400 transition-colors">Featured Projects</a></li>
+              <li><a href="/#hero" className="hover:text-blue-400 transition-colors">Home</a></li>
+              <li><a href="/#about" className="hover:text-blue-400 transition-colors">About Story</a></li>
+              <li><a href="/#skills" className="hover:text-blue-400 transition-colors">Technical Skills</a></li>
+              <li><a href="/#experience" className="hover:text-blue-400 transition-colors">Experience</a></li>
+              <li><a href="/#projects" className="hover:text-blue-400 transition-colors">Featured Projects</a></li>
             </ul>
           </div>
 
@@ -60,18 +61,18 @@ export default function Footer() {
               Specialized Services
             </h4>
             <ul className="space-y-2.5 text-sm text-slate-400">
-              <li><a href="#services" className="hover:text-cyan-400 transition-colors">Web App Development</a></li>
-              <li><a href="#services" className="hover:text-cyan-400 transition-colors">Native Android Apps</a></li>
-              <li><a href="#services" className="hover:text-cyan-400 transition-colors">Full Stack SaaS Platforms</a></li>
-              <li><a href="#services" className="hover:text-cyan-400 transition-colors">AI & LLM API Integration</a></li>
-              <li><a href="#services" className="hover:text-cyan-400 transition-colors">UI/UX & Motion Design</a></li>
+              <li><a href="/#services" className="hover:text-cyan-400 transition-colors">Web App Development</a></li>
+              <li><a href="/#services" className="hover:text-cyan-400 transition-colors">Native Android Apps</a></li>
+              <li><a href="/#services" className="hover:text-cyan-400 transition-colors">Full Stack SaaS Platforms</a></li>
+              <li><a href="/#services" className="hover:text-cyan-400 transition-colors">AI & LLM API Integration</a></li>
+              <li><a href="/#services" className="hover:text-cyan-400 transition-colors">UI/UX & Motion Design</a></li>
             </ul>
           </div>
 
-          {/* Col 4: Quick Links & Back to Top */}
+          {/* Col 4: Quick Links & Legal */}
           <div className="space-y-4">
             <h4 className="text-sm font-bold text-white uppercase tracking-wider">
-              Connect & Resources
+              Connect & Legal
             </h4>
             <div className="flex items-center gap-3">
               <a
@@ -101,13 +102,24 @@ export default function Footer() {
               </a>
             </div>
 
-            <button
-              onClick={scrollToTop}
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 text-xs font-semibold text-slate-300 hover:text-white transition-colors cursor-pointer"
-            >
-              <span>Back To Top</span>
-              <ArrowUp className="w-4 h-4 text-cyan-400" />
-            </button>
+            <div className="pt-1 flex flex-col gap-2 text-xs text-slate-400">
+              <Link href="/privacy-policy" className="hover:text-cyan-300 transition-colors inline-flex items-center gap-1.5">
+                <span>Privacy Policy</span>
+              </Link>
+              <Link href="/terms-of-service" className="hover:text-cyan-300 transition-colors inline-flex items-center gap-1.5">
+                <span>Terms of Service</span>
+              </Link>
+            </div>
+
+            <div className="pt-2">
+              <button
+                onClick={scrollToTop}
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 text-xs font-semibold text-slate-300 hover:text-white transition-colors cursor-pointer"
+              >
+                <span>Back To Top</span>
+                <ArrowUp className="w-4 h-4 text-cyan-400" />
+              </button>
+            </div>
           </div>
         </div>
 
@@ -117,6 +129,15 @@ export default function Footer() {
         {/* Bottom Copyright */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p>© {new Date().getFullYear()} {PROFILE.name}. All rights reserved.</p>
+          <div className="flex items-center gap-4 font-medium">
+            <Link href="/privacy-policy" className="hover:text-cyan-300 transition-colors">
+              Privacy Policy
+            </Link>
+            <span className="text-slate-700">•</span>
+            <Link href="/terms-of-service" className="hover:text-cyan-300 transition-colors">
+              Terms of Service
+            </Link>
+          </div>
           <p className="flex items-center gap-1">
             Engineered with <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" /> using Next.js 15 & React 19
           </p>
@@ -125,3 +146,4 @@ export default function Footer() {
     </footer>
   );
 }
+
