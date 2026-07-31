@@ -194,6 +194,40 @@ html.light .text-slate-100 {
   color: #0f172a !important;
 }
 
+/* EXCEPTION: Elements with solid or gradient blue/indigo/purple backgrounds MUST maintain PURE WHITE text in Light Mode */
+html.light .bg-gradient-to-r,
+html.light .bg-gradient-to-tr,
+html.light .bg-gradient-to-br,
+html.light [class*="bg-gradient-to-r"],
+html.light [class*="from-blue-600"],
+html.light [class*="from-blue-700"],
+html.light [class*="from-indigo-600"],
+html.light [class*="from-purple-600"],
+html.light .bg-blue-600,
+html.light .bg-blue-700,
+html.light .bg-indigo-600,
+html.light .bg-purple-600,
+html.light button.bg-blue-600,
+html.light .shadow-neon-blue,
+html.light .shadow-neon-purple {
+  color: #ffffff !important;
+}
+
+html.light .bg-gradient-to-r *,
+html.light .bg-gradient-to-tr *,
+html.light .bg-gradient-to-br *,
+html.light [class*="bg-gradient-to-r"] *,
+html.light [class*="from-blue-600"] *,
+html.light [class*="from-blue-700"] *,
+html.light [class*="from-indigo-600"] *,
+html.light [class*="from-purple-600"] *,
+html.light .bg-blue-600 *,
+html.light .bg-blue-700 *,
+html.light .bg-indigo-600 *,
+html.light .bg-purple-600 * {
+  color: #ffffff !important;
+}
+
 html.light .text-slate-200 {
   color: #1e293b !important;
 }
