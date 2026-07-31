@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
-import { Star, ChevronLeft, ChevronRight, Quote, Globe, Smartphone, Sparkles } from "lucide-react";
+import { Star, ChevronLeft, ChevronRight, Quote, Globe, Smartphone, Sparkles, User } from "lucide-react";
 import SectionHeading from "../ui/SectionHeading";
 import GlassCard from "../ui/GlassCard";
 import { TESTIMONIALS } from "@/data/portfolioData";
@@ -130,19 +129,10 @@ export default function Testimonials() {
                   "{activeItem.content}"
                 </blockquote>
 
-                {/* Reviewer Info */}
+                {/* Reviewer Info with Blank User Avatar Placeholder */}
                 <div className="flex items-center gap-4 pt-6 border-t border-white/10">
-                  <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-purple-400/40 bg-gradient-to-tr from-blue-600 to-purple-600 shrink-0 flex items-center justify-center text-white font-bold text-lg shadow-md">
-                    <Image
-                      src={activeItem.avatar}
-                      alt={activeItem.name}
-                      fill
-                      className="object-cover"
-                      onError={(e) => {
-                        e.currentTarget.style.display = "none";
-                      }}
-                    />
-                    <span>{activeItem.name.charAt(0)}</span>
+                  <div className="w-12 h-12 rounded-full border border-white/15 bg-white/10 shrink-0 flex items-center justify-center text-cyan-400 shadow-md">
+                    <User className="w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="text-base font-bold text-white">{activeItem.name}</h4>
