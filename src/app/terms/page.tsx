@@ -49,7 +49,7 @@ export default function TermsOfServicePage() {
             <h2>1. Acceptance of Terms</h2>
           </div>
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-            By accessing this portfolio website (<strong className="text-white">karansaini.dev</strong>), interacting with live software demonstrations, or downloading/installing Android applications developed by <strong className="text-white">{PROFILE.name}</strong>, you agree to be legally bound by these Terms of Service. If you do not agree to all terms, you must discontinue using the site and applications immediately.
+            By accessing this portfolio website, interacting with live software demonstrations, or downloading/installing Android applications developed by <strong className="text-white">{PROFILE.name}</strong>, you agree to be legally bound by these Terms of Service. If you do not agree to all terms, you must discontinue using the site and applications immediately.
           </p>
         </GlassCard>
 

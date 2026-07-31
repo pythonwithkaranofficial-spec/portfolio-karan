@@ -44,7 +44,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${PROFILE.name} | Developer Portfolio`,
     description: PROFILE.tagline,
-    url: "https://karansaini.dev",
     siteName: `${PROFILE.name} Portfolio`,
     images: [
       {
@@ -75,7 +74,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  metadataBase: new URL("https://karansaini.dev"),
 };
 
 export default function RootLayout({
@@ -89,7 +87,6 @@ export default function RootLayout({
     name: PROFILE.name,
     jobTitle: PROFILE.title,
     email: PROFILE.email,
-    url: "https://karansaini.dev",
     sameAs: [PROFILE.linkedin, PROFILE.github],
     knowsAbout: [
       "Next.js",
