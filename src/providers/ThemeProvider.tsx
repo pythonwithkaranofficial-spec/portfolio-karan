@@ -12,22 +12,36 @@ interface ThemeContextType {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
+// Helper function to calculate default theme based on current local time
+// 6:00 AM (6) to 6:00 PM (18) -> Light Mode
+// 6:00 PM (18) to 6:00 AM (6) -> Dark Mode
+function getTimeBasedTheme(): Theme {
+  if (typeof window === "undefined") return "dark";
+  const hours = new Date().getHours();
+  return hours >= 6 && hours < 18 ? "light" : "dark";
+}
+
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>("dark"); // Dark mode locked as default
+  const [theme, setTheme] = useState<Theme>("dark");
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [clickCoords, setClickCoords] = useState<{ x: number; y: number } | null>(null);
 
   useEffect(() => {
-    // Sync theme preference on client
-    const savedTheme = localStorage.getItem("theme") as Theme | null;
-    if (savedTheme === "light") {
-      setTheme("light");
-      applyTheme("light");
+    // Check if the user has a saved manual theme preference
+    const savedUserPreference = (localStorage.getItem("user_theme_preference") ||
+      localStorage.getItem("theme")) as Theme | null;
+
+    let initialTheme: Theme;
+    if (savedUserPreference === "light" || savedUserPreference === "dark") {
+      // Respect user's explicit manual toggle choice
+      initialTheme = savedUserPreference;
     } else {
-      // Default to dark
-      setTheme("dark");
-      applyTheme("dark");
+      // Dynamic time-based default (6 AM - 6 PM: Light, 6 PM - 6 AM: Dark)
+      initialTheme = getTimeBasedTheme();
     }
+
+    setTheme(initialTheme);
+    applyTheme(initialTheme);
   }, []);
 
   const applyTheme = (newTheme: Theme) => {
@@ -56,6 +70,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     setTimeout(() => {
       setTheme(nextTheme);
       applyTheme(nextTheme);
+      // Save manual toggle preference so user choice is preserved
+      localStorage.setItem("user_theme_preference", nextTheme);
       localStorage.setItem("theme", nextTheme);
     }, 150);
 
