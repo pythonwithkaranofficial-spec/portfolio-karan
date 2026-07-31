@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { Menu, X, Sparkles, ArrowRight } from "lucide-react";
 import Button from "../ui/Button";
+import ThemeToggle from "../ui/ThemeToggle";
 import MobileDrawer from "./MobileDrawer";
 
 const NAV_ITEMS = [
@@ -113,8 +114,10 @@ export default function Navbar() {
                 })}
               </div>
 
-              {/* Right CTA */}
+              {/* Right CTA & Theme Toggle */}
               <div className="flex items-center gap-2">
+                <ThemeToggle size="sm" />
+
                 <a href="#contact" className="hidden sm:inline-block">
                   <Button variant="primary" size="sm" icon={<ArrowRight className="w-3.5 h-3.5" />}>
                     Hire Me

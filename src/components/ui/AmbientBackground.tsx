@@ -19,8 +19,8 @@ export default function AmbientBackground() {
   }, []);
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-[#030712]">
-      {/* Dark Ambient Grid Pattern */}
+    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+      {/* Ambient Grid Pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-40" />
 
       {/* Noise Texture */}

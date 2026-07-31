@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { X, ArrowRight, Mail, Github, Linkedin } from "lucide-react";
 import Button from "../ui/Button";
+import ThemeToggle from "../ui/ThemeToggle";
 import { PROFILE } from "@/data/portfolioData";
 
 interface MobileDrawerProps {
@@ -59,13 +60,16 @@ export default function MobileDrawer({
                   <p className="text-xs text-slate-400">Full Stack & Mobile Developer</p>
                 </div>
               </div>
-              <button
-                onClick={onClose}
-                aria-label="Close navigation menu"
-                className="p-2.5 rounded-full text-slate-400 hover:text-white bg-white/5 border border-white/10"
-              >
-                <X className="w-5 h-5" />
-              </button>
+              <div className="flex items-center gap-2">
+                <ThemeToggle size="sm" />
+                <button
+                  onClick={onClose}
+                  aria-label="Close navigation menu"
+                  className="p-2.5 rounded-full text-slate-400 hover:text-white bg-white/5 border border-white/10"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
             </div>
 
             {/* Nav Links */}

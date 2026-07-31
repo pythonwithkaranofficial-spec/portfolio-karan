@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/providers/ThemeProvider";
 import SmoothScrollProvider from "@/providers/SmoothScrollProvider";
 import AmbientBackground from "@/components/ui/AmbientBackground";
 import Navbar from "@/components/layout/Navbar";
@@ -112,20 +113,23 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-[#030712] text-slate-100 antialiased selection:bg-blue-500 selection:text-white min-h-screen flex flex-col relative overflow-x-hidden">
-        <SmoothScrollProvider>
-          {/* Ambient Lighting & Background Canvas */}
-          <AmbientBackground />
+        <ThemeProvider>
+          <SmoothScrollProvider>
+            {/* Ambient Lighting & Background Canvas */}
+            <AmbientBackground />
 
-          {/* Floating Pill Header Navigation */}
-          <Navbar />
+            {/* Floating Pill Header Navigation */}
+            <Navbar />
 
-          {/* Main Application Page */}
-          <main className="flex-grow z-10">{children}</main>
+            {/* Main Application Page */}
+            <main className="flex-grow z-10">{children}</main>
 
-          {/* Spacious Footer */}
-          <Footer />
-        </SmoothScrollProvider>
+            {/* Spacious Footer */}
+            <Footer />
+          </SmoothScrollProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
 }
+
