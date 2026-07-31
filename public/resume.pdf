@@ -1,0 +1,110 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /MediaBox [0 0 612 792] /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Length 1200 >>
+stream
+BT
+/F1 24 Tf
+50 740 Td
+(KARAN SAINI) Tj
+0 -25 Td
+/F2 12 Tf
+(Full Stack Website Developer & Native Android Application Developer) Tj
+0 -18 Td
+(Email: tpaofficial1999@gmail.com | Experience: 4+ Years | Location: India) Tj
+0 -18 Td
+(LinkedIn: linkedin.com/in/karan-saini-mrperfect | GitHub: github.com/pythonwithkaranofficial-spec) Tj
+0 -30 Td
+/F1 14 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -18 Td
+/F2 11 Tf
+(Senior Full Stack & Mobile Architect with 4+ years of experience engineering scalable web ecosystems) Tj
+0 -15 Td
+(and high-performance native Android applications. Specialized in Next.js 15, React 19, TypeScript,) Tj
+0 -15 Td
+(Kotlin, Node.js microservices, MongoDB, Firebase, and AI integrations (OpenAI & Gemini APIs).) Tj
+0 -30 Td
+/F1 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -18 Td
+/F2 11 Tf
+(Frontend: Next.js 15, React 19, TypeScript, Tailwind CSS, Framer Motion, Lenis) Tj
+0 -15 Td
+(Backend: Node.js, Express, Python, FastAPI, REST APIs, WebSockets) Tj
+0 -15 Td
+(Android: Native Kotlin/Java, Jetpack Compose, Room DB, CameraX, MVVM) Tj
+0 -15 Td
+(Database & Cloud: MongoDB Atlas, Firebase Firestore, PostgreSQL, Vercel) Tj
+0 -15 Td
+(AI & ML: OpenAI API, Google Gemini API, Prompt Engineering) Tj
+0 -30 Td
+/F1 14 Tf
+(FEATURED PROJECTS) Tj
+0 -18 Td
+/F1 11 Tf
+(SmartPaperGenerator Website & App:) Tj
+/F2 11 Tf
+( AI exam generation platform serving 50,000+ papers (<1.5s response).) Tj
+0 -15 Td
+/F1 11 Tf
+(SeminarKaran Website:) Tj
+/F2 11 Tf
+( Educational video portal with YouTube stream sync and real-time search.) Tj
+0 -15 Td
+/F1 11 Tf
+(PythonWithKaran App:) Tj
+/F2 11 Tf
+( Interactive Python learning mobile app with 10,000+ Play Store downloads.) Tj
+0 -15 Td
+/F1 11 Tf
+(TouchLock & QRScanner Pro:) Tj
+/F2 11 Tf
+( Native Android utility apps with 25,000+ active users.) Tj
+0 -30 Td
+/F1 14 Tf
+(WORK EXPERIENCE) Tj
+0 -18 Td
+/F1 11 Tf
+(Senior Full Stack & Mobile Architect) Tj
+/F2 11 Tf
+( | Self-Employed / Independent (2024 - Present)) Tj
+0 -15 Td
+(Full Stack Web & Android Developer) Tj
+/F2 11 Tf
+( | Tech Edge Solutions (2022 - 2024)) Tj
+0 -15 Td
+(Junior Web & Python Developer) Tj
+/F2 11 Tf
+( | Core Code Studio (2020 - 2022)) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000000325 00000 n 
+0000000401 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1700
+%%EOF
