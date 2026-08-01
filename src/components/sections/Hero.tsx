@@ -172,7 +172,7 @@ export default function Hero() {
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
-              className="absolute inset-0 flex items-center justify-center pointer-events-none z-20"
+              className="absolute inset-0 flex items-center justify-center pointer-events-none z-20 transform-gpu will-change-transform"
               suppressHydrationWarning
             >
               {TECH_ORBITS.map((tech, i) => {
@@ -196,7 +196,7 @@ export default function Hero() {
                     <motion.div
                       animate={{ rotate: -360 }}
                       transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
-                      className={`p-3 rounded-full glass-panel border shadow-lg flex items-center gap-1.5 group hover:scale-110 transition-transform ${tech.color}`}
+                      className={`p-3 rounded-full bg-slate-900/90 backdrop-blur-md border border-white/20 shadow-lg flex items-center gap-1.5 group hover:scale-110 transition-transform transform-gpu will-change-transform ${tech.color}`}
                       title={tech.label}
                     >
                       <IconComp className="w-5 h-5" />

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { Menu, X, Sparkles, ArrowRight } from "lucide-react";
@@ -22,39 +22,47 @@ const NAV_ITEMS = [
 
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
   const [activeSection, setActiveSection] = useState("hero");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const lastScrollYRef = useRef(0);
 
   useEffect(() => {
+    let ticking = false;
+
     const handleScroll = () => {
-      const currentScrollY = window.scrollY;
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const currentScrollY = window.scrollY;
 
-      // Hide navbar when scrolling down, show when scrolling up
-      if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        setIsVisible(false);
-      } else {
-        setIsVisible(true);
-      }
-      setLastScrollY(currentScrollY);
-
-      // ScrollSpy section detection
-      const sections = NAV_ITEMS.map((item) => item.href.substring(1));
-      for (const sectionId of sections) {
-        const el = document.getElementById(sectionId);
-        if (el) {
-          const rect = el.getBoundingClientRect();
-          if (rect.top <= 200 && rect.bottom >= 200) {
-            setActiveSection(sectionId);
-            break;
+          // Hide navbar when scrolling down, show when scrolling up
+          if (currentScrollY > lastScrollYRef.current && currentScrollY > 100) {
+            setIsVisible(false);
+          } else {
+            setIsVisible(true);
           }
-        }
+          lastScrollYRef.current = currentScrollY;
+
+          // Throttled ScrollSpy section detection
+          const sections = NAV_ITEMS.map((item) => item.href.substring(1));
+          for (const sectionId of sections) {
+            const el = document.getElementById(sectionId);
+            if (el) {
+              const rect = el.getBoundingClientRect();
+              if (rect.top <= 200 && rect.bottom >= 200) {
+                setActiveSection(sectionId);
+                break;
+              }
+            }
+          }
+          ticking = false;
+        });
+        ticking = true;
       }
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [lastScrollY]);
+  }, []);
 
   return (
     <>

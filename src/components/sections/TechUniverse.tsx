@@ -109,6 +109,7 @@ export default function TechUniverse() {
                     repeat: Infinity,
                     ease: "linear",
                   }}
+                  className="transform-gpu will-change-transform"
                   style={{
                     position: "absolute",
                     left: "50%",
@@ -147,10 +148,11 @@ export default function TechUniverse() {
                             repeat: Infinity,
                             ease: "linear",
                           }}
+                          className="transform-gpu will-change-transform"
                         >
                           <motion.div
                             whileHover={{ scale: 1.18 }}
-                            className="flex items-center gap-2 px-3.5 py-2 rounded-full glass-panel border border-white/15 shadow-glass cursor-pointer transition-all duration-300 group-hover:border-cyan-400 group-hover:shadow-[0_0_25px_rgba(6,182,212,0.4)]"
+                            className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-slate-900/85 backdrop-blur-md border border-white/15 shadow-glass cursor-pointer transition-all duration-300 group-hover:border-cyan-400 group-hover:shadow-[0_0_25px_rgba(6,182,212,0.4)]"
                           >
                             <div
                               className="w-3 h-3 rounded-full shrink-0"
@@ -178,6 +180,7 @@ export default function TechUniverse() {
                     repeat: Infinity,
                     ease: "linear",
                   }}
+                  className="transform-gpu will-change-transform"
                   style={{
                     position: "absolute",
                     left: "50%",
@@ -216,10 +219,11 @@ export default function TechUniverse() {
                             repeat: Infinity,
                             ease: "linear",
                           }}
+                          className="transform-gpu will-change-transform"
                         >
                           <motion.div
                             whileHover={{ scale: 1.15 }}
-                            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full glass-panel border border-white/15 shadow-glass cursor-pointer transition-all duration-300 group-hover:border-cyan-400"
+                            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full bg-slate-900/90 border border-white/20 shadow-md cursor-pointer transition-all duration-300 group-hover:border-cyan-400"
                           >
                             <div
                               className="w-2.5 h-2.5 rounded-full shrink-0"

@@ -23,7 +23,7 @@ export default function GlassCard({
   const [rotateY, setRotateY] = useState(0);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (!tilt) return;
+    if (!tilt || (typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches)) return;
     const card = e.currentTarget.getBoundingClientRect();
     const centerX = card.left + card.width / 2;
     const centerY = card.top + card.height / 2;
@@ -38,8 +38,10 @@ export default function GlassCard({
   };
 
   const handleMouseLeave = () => {
-    setRotateX(0);
-    setRotateY(0);
+    if (rotateX !== 0 || rotateY !== 0) {
+      setRotateX(0);
+      setRotateY(0);
+    }
   };
 
   const glowStyles = {
