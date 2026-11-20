@@ -176,6 +176,23 @@ export default function RefundPolicyPage() {
         you get <strong>30 days of free fixes and small changes</strong>{" "}to make sure everything works exactly as agreed. After
         that, optional yearly maintenance is available.
       </p>
+      <ul>
+        <li>
+          The final 50% is due <strong>within 7 days of delivery</strong>. The source code, admin access and Play Store publishing
+          are <strong>handed over once it is received</strong>; until then you can keep testing on the demo link or test APK.
+        </li>
+        <li>
+          New features outside the written quote, and changes beyond the <strong>2 free rounds</strong>, are{" "}
+          <strong>quoted separately</strong>{" "}and are not part of a refund.
+        </li>
+      </ul>
+
+      <h2>Google Play approval</h2>
+      <p>
+        Every app is built to follow Google Play&apos;s policies, and I <strong>fix any issue Google raises</strong>{" "}within the
+        agreed scope at no extra cost. Approval itself is Google&apos;s decision, so a rejection caused by the app&apos;s content or
+        business type <strong>isn&apos;t a reason for a refund</strong>{" "}— but I&apos;ll always help you find the best way forward.
+      </p>
 
       <h2>If I can&apos;t complete the project</h2>
       <p>
@@ -195,6 +212,11 @@ export default function RefundPolicyPage() {
         Just send a message on WhatsApp or email <a href={`mailto:${PROFILE.email}`}>{PROFILE.email}</a>. I&apos;ll confirm the
         amount with you, and the refund is sent to your original payment method (UPI or bank transfer) within{" "}
         <strong>7 working days</strong>.
+      </p>
+      <p>
+        Refunds are always handled <strong>directly between us</strong>{" "}under this policy, which is the quickest way for you to get
+        your money back. If a payment is disputed or reversed through a bank or app instead, work and handover are{" "}
+        <strong>paused</strong>{" "}until it is sorted out together.
       </p>
 
       <p>

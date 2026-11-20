@@ -60,6 +60,11 @@ export default function PrivacyPage() {
           records are kept only as long as Indian tax law requires.
         </li>
         <li>
+          Your finished project may appear in this portfolio as <strong>screenshots and a short description only</strong>{" "}—{" "}
+          <strong>never your customers&apos; data, passwords or private details</strong>. If you&apos;d like it kept private, just tell
+          me and it won&apos;t be shown.
+        </li>
+        <li>
           Once your project is complete, <strong>please change any passwords</strong>{" "}you shared with me during the work, for your
           own peace of mind.
         </li>

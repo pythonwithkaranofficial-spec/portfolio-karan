@@ -84,17 +84,84 @@ export default function TermsPage() {
       </ul>
 
       <h2>Your project belongs to you</h2>
-      <p>
-        Once the project is <strong>completed and paid for in full</strong>, the website or app, its design and its code are{" "}
-        <strong>yours</strong>. Your domain, hosting and Play Store account are <strong>always registered in your name</strong>. If
-        a project is stopped midway, you keep the work completed up to that point. With your permission, I may show screenshots
-        of the work in this portfolio.
-      </p>
+      <ul>
+        <li>
+          Once the project is <strong>completed and paid for in full</strong>, the website or app, its design and its code are{" "}
+          <strong>yours</strong>. Your domain, hosting and Play Store account are <strong>always registered in your name</strong>.
+        </li>
+        <li>
+          <strong>Handover happens after the final payment.</strong>{" "}The source code, admin access and final files are handed over,
+          and the app is published on your Play Store account, once the final payment is received. Until then, you can test
+          everything on a <strong>demo link or test APK</strong>.
+        </li>
+        <li>If a project is stopped midway, you keep the work completed up to that point, as explained in the Refund Policy.</li>
+      </ul>
+
+      <h2>Final payment</h2>
+      <ul>
+        <li>
+          The final 50% is due <strong>within 7 days of delivery</strong>. A friendly reminder is sent before the due date.
+        </li>
+        <li>
+          If the payment is still pending after 7 days, the <strong>demo link and test APK may be paused</strong>{" "}until it is
+          received, and everything is restored straight away once it is paid.
+        </li>
+      </ul>
+
+      <h2>Changes and extra features</h2>
+      <ul>
+        <li>
+          The written quote lists exactly what is included. <strong>New features or pages outside the quote</strong>{" "}are{" "}
+          <strong>priced and agreed in writing before</strong>{" "}I start on them, so you always know the cost in advance.
+        </li>
+        <li>
+          Every project includes <strong>2 free rounds of changes</strong>{" "}to the design or content. Further changes are{" "}
+          <strong>quoted at a small, fixed charge</strong>{" "}before they are made.
+        </li>
+      </ul>
 
       <h2>Support after delivery</h2>
       <p>
         Every project includes <strong>30 days of free fixes and small changes</strong>{" "}after delivery. Optional yearly maintenance
         is available if you&apos;d like ongoing updates and care.
+      </p>
+
+      <h2>Your content and your business</h2>
+      <ul>
+        <li>
+          You confirm that the <strong>logos, photos, text and other content you send are yours</strong>{" "}or that you have the
+          right to use them. If you&apos;re not sure, I can suggest free or licensed alternatives.
+        </li>
+        <li>
+          Your business remains responsible for its own <strong>legal requirements</strong>{" "}— such as GST, licences, and the
+          rules for the products or services you sell.
+        </li>
+      </ul>
+
+      <h2>Google Play and other services</h2>
+      <ul>
+        <li>
+          <strong>App approval is decided by Google.</strong>{" "}I build every app to follow Google Play&apos;s policies and fix any
+          issue Google raises within the agreed scope, but approval itself can&apos;t be guaranteed. A rejection caused by the
+          app&apos;s content or business type is not a reason for a refund.
+        </li>
+        <li>
+          Projects may use services such as hosting, payment gateways, maps or AI. If these companies{" "}
+          <strong>change their rules, prices or features</strong>, any updates needed after the 30 free days are quoted
+          separately.
+        </li>
+      </ul>
+
+      <h2>Showing the work in my portfolio</h2>
+      <p>
+        I may show <strong>screenshots and a short description</strong>{" "}of your finished project in this portfolio. If you prefer
+        it to stay private, just tell me in writing and it <strong>won&apos;t be shown</strong>.
+      </p>
+
+      <h2>Limit of responsibility</h2>
+      <p>
+        I always work carefully and fix problems quickly. To keep things fair for both sides, my total responsibility for any
+        project is <strong>never more than the amount you paid</strong>{" "}for that project.
       </p>
 
       <h2>Using my apps and this website</h2>
