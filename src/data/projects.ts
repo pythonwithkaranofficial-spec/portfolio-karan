@@ -36,6 +36,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/pythonwithkaran/01.webp",
+        "thumb": "/work/pythonwithkaran/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAQCdASoHABAAA4BaJaAC7AEOrk6QAP7rNuJ2mTW2tfHICxyIWvVdx0uzHfYjAguvnkC//VPDx/gy53SYDkWHzBys+1s6+LfsNf6m9cZoW58AAAA=",
         "w": 720,
         "h": 1600,
         "label": "Home dashboard",
@@ -43,6 +45,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pythonwithkaran/02.webp",
+        "thumb": "/work/pythonwithkaran/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoHABAAA4BaJYwAAuaaH4AA/ugAUpD8Ly5Er9HLpErGrmpp3Kiw0stoDqAAAA==",
         "w": 720,
         "h": 1600,
         "label": "CBSE syllabus",
@@ -50,6 +54,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pythonwithkaran/03.webp",
+        "thumb": "/work/pythonwithkaran/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAABQAQCdASoHABAAA4BaJaQABDOAAP70EL4GZqqAeQIkBAQA",
         "w": 720,
         "h": 1600,
         "label": "Study notes",
@@ -57,6 +63,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pythonwithkaran/04.webp",
+        "thumb": "/work/pythonwithkaran/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoHABAAA4BaJaQAAud4UtEAAP7yZayzfCGqPifnqntzkvgGTVYGk71z1poz+Km9IUBvPwtqEh7wKPvVD+kAAAAA",
         "w": 720,
         "h": 1600,
         "label": "Video lessons and shorts",
@@ -64,6 +72,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pythonwithkaran/05.webp",
+        "thumb": "/work/pythonwithkaran/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAACQAQCdASoHABAAA4BaJaQAAp2flQAA/vYZQs80gEt3jgAA",
         "w": 720,
         "h": 1600,
         "label": "MCQ practice",
@@ -71,6 +81,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pythonwithkaran/06.webp",
+        "thumb": "/work/pythonwithkaran/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAACQAQCdASoHABAAA4BaJaQAAxf7+RAA/vYZD5AflD3jgAAA",
         "w": 720,
         "h": 1600,
         "label": "Previous-year questions",
@@ -78,6 +90,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pythonwithkaran/07.webp",
+        "thumb": "/work/pythonwithkaran/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoHABAAA4BaJYwC7AD0eea0SAAA/vQ7Zc4tsKFsnYqX3WRkynuAUcAA",
         "w": 720,
         "h": 1600,
         "label": "Dark mode navigation",
@@ -85,6 +99,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pythonwithkaran/08.webp",
+        "thumb": "/work/pythonwithkaran/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACQAQCdASoHABAAA4BaJZwAApY5MAAA/vVYZQwmvXeaC13wL1HAAA==",
         "w": 720,
         "h": 1600,
         "label": "Profile and settings",
@@ -131,6 +147,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/periodic-table-explorer/01.webp",
+        "thumb": "/work/periodic-table-explorer/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoHABAAA4BaJQBOgCHgZVxMAAD+9oWM2Xml4v5ucjqGbkQ3DMs8q53FCGhWQUoCBhNGC2OgHAA=",
         "w": 720,
         "h": 1557,
         "label": "Welcome / splash",
@@ -138,6 +156,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/periodic-table-explorer/02.webp",
+        "thumb": "/work/periodic-table-explorer/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABwAgCdASoHABAAA4BaJbACdEf/2RgC0tKDzMJgAP70ALCDto6xGBbGFXlr2l1+ZzbChX8cCR3E7hsGTGoJxsMV7ZvrhBLLly3fdZRrpzi9dov+2vrNCnI120l6PYAA",
         "w": 720,
         "h": 1557,
         "label": "Interactive periodic table",
@@ -145,6 +165,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/periodic-table-explorer/03.webp",
+        "thumb": "/work/periodic-table-explorer/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoHABAAA4BaJQBOj+ADAowHx0AA+OXp7TLdoV3QPC0tnLt+65moe9ZXgiv+VM76IzhuQTEwAAA=",
         "w": 720,
         "h": 1557,
         "label": "Category highlight",
@@ -152,6 +174,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/periodic-table-explorer/04.webp",
+        "thumb": "/work/periodic-table-explorer/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoHABAAA4BaJbACdAED9qTEGagA/vVFigUlHjLurGLi34jCEFkoDi1NDlbtXuuTiwppY7QDdyer5RSWfHTIHzNP4DCTaJAAAAA=",
         "w": 720,
         "h": 1557,
         "label": "Periodic trends heatmap",
@@ -159,6 +183,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/periodic-table-explorer/05.webp",
+        "thumb": "/work/periodic-table-explorer/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoHABAAA4BaJYwCdAD0RjQ4yAAA/vRJ595qr20yrfaz7ZrA5N2G+LgA",
         "w": 720,
         "h": 1557,
         "label": "Chemistry quiz with lifelines",
@@ -166,6 +192,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/periodic-table-explorer/06.webp",
+        "thumb": "/work/periodic-table-explorer/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoHABAAA4BaJYwCdAEOaCzzzYAA/vFBgT3ewIb/dgmB6yd6NJYAAA==",
         "w": 720,
         "h": 1557,
         "label": "Search with property filters",
@@ -173,6 +201,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/periodic-table-explorer/07.webp",
+        "thumb": "/work/periodic-table-explorer/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoHABAAA4BaJagCdAEOV3D6AAD+zgazT+PnWFytQ24BRcxPMPc/qtxjhdDzoYlMFyZ2S8PcgcR2MjDBW97/wcbdgezlv04t0F6AAA==",
         "w": 720,
         "h": 1557,
         "label": "Saved favourites",
@@ -180,6 +210,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/periodic-table-explorer/08.webp",
+        "thumb": "/work/periodic-table-explorer/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoHABAAA4BaJZwAApz7FAAA/vYWz6TqddGWafMMIR8Q1AAA",
         "w": 720,
         "h": 1557,
         "label": "Element groups",
@@ -226,6 +258,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/purple-monster/01.webp",
+        "thumb": "/work/purple-monster/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoHABAAA4BaJYgC7AD0jJqJKYAA/vXa2/V2jWsX0nV6Q55ahdvhKxOdRwNG4w7LXeuvZ8oPOq0YJ/UZbxZkCnAA",
         "w": 689,
         "h": 1490,
         "label": "Home screen",
@@ -233,6 +267,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/purple-monster/02.webp",
+        "thumb": "/work/purple-monster/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoHABAAA4BaJZACdAEPDibtbIAA/vF7jYzQnaCgW0rM/XJoEUYsoFS3R3geqFEFK/Uz/lL4XCxpIIiZBlqcTSAA",
         "w": 720,
         "h": 1557,
         "label": "Skins collection",
@@ -240,6 +276,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/purple-monster/03.webp",
+        "thumb": "/work/purple-monster/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoHABAAA4BaJZACdAEfbNt+1EUAAP7xIzjBnxu2QAa6+sjvFHarvD2bFPF/Wf+UHuewHR9FVyYlPlUGWrOx/YBNnmwAeSAA",
         "w": 720,
         "h": 1557,
         "label": "Achievements",
@@ -247,6 +285,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/purple-monster/04.webp",
+        "thumb": "/work/purple-monster/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoHABAAA4BaJZgC7AEO9DaSUAD+9DEVs5PhEGCuhy18tIOggWirBbh/U3zZFRL7Y7rwA5UWFG2VKbR8wIAAAA==",
         "w": 720,
         "h": 1558,
         "label": "Boosters",
@@ -254,6 +294,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/purple-monster/05.webp",
+        "thumb": "/work/purple-monster/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoHABAAA4BaJYgAAudP5wyAAP7xHA0TLJt/UY1b66w6xOh2H834JpzFsOAAAA==",
         "w": 720,
         "h": 1557,
         "label": "Snack guide",
@@ -261,6 +303,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/purple-monster/06.webp",
+        "thumb": "/work/purple-monster/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoHABAAA4BaJYgAAxZdxuKOjKgA/vQ1l1Umtvg9c6FWSq3WOlTzkSikb7NfJ4TTuGKGLA3z26+RIyYktChQAA==",
         "w": 720,
         "h": 1558,
         "label": "Play modes",
@@ -268,6 +312,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/purple-monster/07.webp",
+        "thumb": "/work/purple-monster/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoHABAAA4BaJQAAXOyyWQgQAP71fiA46tdqBjzLMjEKxhfrDy4lANbJx+2TxAe0AAA=",
         "w": 720,
         "h": 1557,
         "label": "Settings",
@@ -311,6 +357,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/smart-paper-generator/01.webp",
+        "thumb": "/work/smart-paper-generator/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoQAAoAA4BaJQBOgCHpU2pGbAD+885oYMMbP1RFPDuaLoSWS2MGWYG1aAA=",
         "w": 1440,
         "h": 900,
         "label": "Home",
@@ -318,6 +366,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/smart-paper-generator/02.webp",
+        "thumb": "/work/smart-paper-generator/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoQAAsAA4BaJZQCw7EPAFxuhCAA/vYGd1bTgGtYsNh1q7d+vFoAAA==",
         "w": 1432,
         "h": 994,
         "label": "Generate paper wizard",
@@ -325,6 +375,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/smart-paper-generator/03.webp",
+        "thumb": "/work/smart-paper-generator/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABwAQCdASoQAAsAA4BaJZQCw7FAAAD+8pM+ABqXvndvsVDtCTEk84eps/TQdMQAAAA=",
         "w": 1432,
         "h": 994,
         "label": "Syllabus",
@@ -332,6 +384,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/smart-paper-generator/04.webp",
+        "thumb": "/work/smart-paper-generator/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoQAAsAA4BaJZQCw7FAAAD+8tU+eScKvFeMbRcYusdJ9pOBLXySqAAA",
         "w": 1432,
         "h": 994,
         "label": "Get answer key",
@@ -339,6 +393,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/smart-paper-generator/05.webp",
+        "thumb": "/work/smart-paper-generator/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAgCdASoQAAkAA4BaJZQCw7EQUPB+It0AAP7vw8KUo4a4z6Stq+17bpqsl+NC6/jhm3nAAAA=",
         "w": 1440,
         "h": 810,
         "label": "Sign in",
@@ -346,6 +402,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/smart-paper-generator/06.webp",
+        "thumb": "/work/smart-paper-generator/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAABQAQCdASoHABAAA4BaJZQABAAAAP7zYGyDyTE8PIAAAA==",
         "w": 382,
         "h": 826,
         "label": "Home (mobile)",
@@ -353,6 +411,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/smart-paper-generator/07.webp",
+        "thumb": "/work/smart-paper-generator/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoHABAAA4BaJZQAAudkr4JYAP72DAge4LM1y1OWxD48BHMTF6TcAA==",
         "w": 382,
         "h": 826,
         "label": "Generate (mobile)",
@@ -395,6 +455,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/fontzyle/01.webp",
+        "thumb": "/work/fontzyle/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACQAQCdASoHABAAA4BaJZQAAudZuFQA/vPjcI/M8xnOZgKbUhyAlsNsymL7DsgA",
         "w": 720,
         "h": 1557,
         "label": "Home dashboard",
@@ -402,6 +464,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/fontzyle/02.webp",
+        "thumb": "/work/fontzyle/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoHABAAA4BaJZQAAp1Fr+wAAP709SN7zBh+N9cv/rEgEVepeG7yhGH2K64ggAAA",
         "w": 720,
         "h": 1557,
         "label": "Decorative text styles",
@@ -409,6 +473,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/fontzyle/03.webp",
+        "thumb": "/work/fontzyle/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAADQAQCdASoHABAAA4BaJZwAAup2ivbYAAD+9grMVIcCDuRMAAA=",
         "w": 720,
         "h": 1557,
         "label": "Gaming nicknames",
@@ -416,6 +482,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/fontzyle/04.webp",
+        "thumb": "/work/fontzyle/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAAAwAQCdASoHABAAA4BaJaQAA3AA/vPXcG9CeoAkUio7Z/s5NAAAAA==",
         "w": 720,
         "h": 1557,
         "label": "Bio templates",
@@ -423,6 +491,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/fontzyle/05.webp",
+        "thumb": "/work/fontzyle/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoHABAAA4BaJbACdFkAAbOuf/HJAAD+5gqQbmODyykdbgD7muKBRB13xZnkte1vyyn48//tHdyMiEFvXFKAAA==",
         "w": 720,
         "h": 1557,
         "label": "Text image creator",
@@ -430,6 +500,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/fontzyle/06.webp",
+        "thumb": "/work/fontzyle/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAAAwAQCdASoHABAAA4BaJZQAA3AA/vI4UfhMzvnP1YIhD6s0w8pSK+IDSAA=",
         "w": 720,
         "h": 1557,
         "label": "Invisible text",
@@ -437,6 +509,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/fontzyle/07.webp",
+        "thumb": "/work/fontzyle/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoHABAAA4BaJYwAAueAdGv0QAD+9Fcil9cS6qjeCiKj5hiVNOMXre3bQGl99QAA",
         "w": 720,
         "h": 1557,
         "label": "Dark mode",
@@ -475,6 +549,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/pyboss/01.webp",
+        "thumb": "/work/pyboss/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoJABAAA4BaJbACdAIsIAD+8WXx1A+98t1O9NYbtNS1WhtWPL7ewAAA",
         "w": 720,
         "h": 1280,
         "label": "Code boss battle",
@@ -482,6 +558,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pyboss/02.webp",
+        "thumb": "/work/pyboss/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoJABAAA4BaJbACdAEPAaEhkSAA/u9MZRJeE9azBoo+OzRA4ddJVcHdxi08kSmiAAA=",
         "w": 720,
         "h": 1280,
         "label": "Arrange real Python code",
@@ -489,6 +567,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pyboss/03.webp",
+        "thumb": "/work/pyboss/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoJABAAA4BaJbACw7ELZMW6dgwA/u9MamsEhXWZ3CW5kl/Y8yPDJHd/fe7O31obVjy+2lQAAAA=",
         "w": 720,
         "h": 1280,
         "label": "World map",
@@ -496,6 +576,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pyboss/04.webp",
+        "thumb": "/work/pyboss/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoJABAAA4BaJbACdAEO+tbtIAD+7s0/2i071i78yNiRypTMPIz2B/dVSd9QncYPI7YfgJ4RlX7i4AAA",
         "w": 720,
         "h": 1280,
         "label": "Level complete",
@@ -503,6 +585,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pyboss/05.webp",
+        "thumb": "/work/pyboss/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoJABAAA4BaJbACdAELKUNH9gAA/vEEjh4a3aeLBF/7Hybgq9GV1AZRsDMMec0BgRYKP/qtqc3ul+nT5VN56ZqyAAA=",
         "w": 720,
         "h": 1280,
         "label": "Daily lucky spin",
@@ -510,6 +594,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pyboss/06.webp",
+        "thumb": "/work/pyboss/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoJABAAA4BaJbACdAELZLfHgguAAP7xA/i5FAZwfo5k2QT4DGpaCOFtZBkqm2oGS6pnhw4VfN3bgQYEBUWLIAsgAAA=",
         "w": 720,
         "h": 1280,
         "label": "Level up & avatars",
@@ -550,6 +636,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/ncert-math-formulas/01.webp",
+        "thumb": "/work/ncert-math-formulas/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAAAwAQCdASoHABAAA4BaJaQAA3AA/vRGSvX/qrBlbpAAAA==",
         "w": 720,
         "h": 1557,
         "label": "Formula wall",
@@ -557,6 +645,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/ncert-math-formulas/02.webp",
+        "thumb": "/work/ncert-math-formulas/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoHABAAA4BaJbACdH8AGBhTqYAA/vT+l/AN2p/xsWPzTEau2HGmTGsb3y1dhPSmKuTLbE6Qb/eSNiObV+0/OZBcbi2yJsiib47d/3s/5+dkc99cBAgAAA==",
         "w": 720,
         "h": 1557,
         "label": "Home",
@@ -564,6 +654,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/ncert-math-formulas/03.webp",
+        "thumb": "/work/ncert-math-formulas/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRiYAAABXRUJQVlA4IBoAAAAwAQCdASoHABAAA4BaJaQAA3AA/vR8KBgAAA==",
         "w": 720,
         "h": 1557,
         "label": "Class 9 chapters",
@@ -571,6 +663,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/ncert-math-formulas/04.webp",
+        "thumb": "/work/ncert-math-formulas/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRigAAABXRUJQVlA4IBwAAAAwAQCdASoHABAAA4BaJaQAA3AA/vR8KbqUAAAA",
         "w": 720,
         "h": 1557,
         "label": "Class 10 chapters",
@@ -578,6 +672,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/ncert-math-formulas/05.webp",
+        "thumb": "/work/ncert-math-formulas/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRigAAABXRUJQVlA4IBwAAAAwAQCdASoHABAAA4BaJaQAA3AA/vR8KnALzQAA",
         "w": 720,
         "h": 1557,
         "label": "Class 11 chapters",
@@ -585,6 +681,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/ncert-math-formulas/06.webp",
+        "thumb": "/work/ncert-math-formulas/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRigAAABXRUJQVlA4IBwAAAAwAQCdASoHABAAA4BaJaQAA3AA/vR8Kay80AAA",
         "w": 720,
         "h": 1557,
         "label": "Class 12 chapters",
@@ -592,6 +690,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/ncert-math-formulas/07.webp",
+        "thumb": "/work/ncert-math-formulas/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAACwAQCdASoHABAAA4BaJaQAAudPnotAAP72K4EfCbmMXQAA",
         "w": 720,
         "h": 1557,
         "label": "Flashcards",
@@ -599,6 +699,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/ncert-math-formulas/08.webp",
+        "thumb": "/work/ncert-math-formulas/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRigAAABXRUJQVlA4IBwAAAAwAQCdASoHABAAA4BaJaQAA3AA/vR9s3pZZsAA",
         "w": 720,
         "h": 1557,
         "label": "Quick quiz",
@@ -637,6 +739,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/blink-and-remember/01.webp",
+        "thumb": "/work/blink-and-remember/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoIABAAA4BaJbACsADz2yC0EAD+72Pi/RkPHaoiGByXYau8IiYdfpA3APg21RXnn1ocq704shW4/sUiq5WuQPNVCg3zuJokdMX48RbLXhxAAA==",
         "w": 720,
         "h": 1453,
         "label": "Home",
@@ -644,6 +748,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/blink-and-remember/02.webp",
+        "thumb": "/work/blink-and-remember/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoHABAAA4BaJagAApzo11OwAP7prFRxa1/jEjp3gcj0GXp7mXhVMP8rVdWIKCTzg+jiub/3SwwwkmKW/xbLAAAA",
         "w": 720,
         "h": 1557,
         "label": "Level select",
@@ -651,6 +757,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/blink-and-remember/03.webp",
+        "thumb": "/work/blink-and-remember/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoHABAAA4BaJYgC7AEfbQY0RjwAAP70O6W9dOmFzA8JM8sejFhJi0V/3KWJemG0HnisS3uaA7eCeLU7bmUKWHRfEedinAAA",
         "w": 720,
         "h": 1557,
         "label": "Classic gameplay",
@@ -658,6 +766,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/blink-and-remember/04.webp",
+        "thumb": "/work/blink-and-remember/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoHABAAA4BaJaACdAEfbfoQcgAA/vQ7pb10JUIaFlF32u5HqgfHm4ej3CbLe6WQuhqvmgPAhL6iceEAE3PUAAAA",
         "w": 720,
         "h": 1557,
         "label": "Colour memory",
@@ -665,6 +775,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/blink-and-remember/05.webp",
+        "thumb": "/work/blink-and-remember/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoHABAAA4BaJYgCdAEfbIkU8EgA/vQ7pb10JUIjQ/vZUOEqatkBwTzaTRF/SSUz4InZXZQUfpbcybE7YzDV6JsAAAA=",
         "w": 720,
         "h": 1557,
         "label": "Pattern memory",
@@ -672,6 +784,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/blink-and-remember/06.webp",
+        "thumb": "/work/blink-and-remember/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoHABAAA4BaJaACdAD0sn3fqkAA/u+gkidEdvTzBQS/Z3xgMNS7eRQX2A3sjUFfQhFnSfXcAuJvQFdVLIqn6kyKk4rJSoPFkcw4gAAA",
         "w": 720,
         "h": 1557,
         "label": "Level complete",
@@ -679,6 +793,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/blink-and-remember/07.webp",
+        "thumb": "/work/blink-and-remember/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoIABAAA4BaJbACdAD0kQaw0J8AAP7s92U5BW63BESm79J38nOBFarPn86ecH9ky/nHovTLCipPY8kDdlu+6iYtoYrx8jh6rFZ4AA==",
         "w": 720,
         "h": 1453,
         "label": "Shop",
@@ -686,6 +802,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/blink-and-remember/08.webp",
+        "thumb": "/work/blink-and-remember/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoIABAAA4BaJagCsAEO+Lt8AAD+7E/7BlhefAUKv5YHXuy5zhPCA0r04KdjjaiUtvis/Oko7xNa9E4AE3AAAA==",
         "w": 720,
         "h": 1453,
         "label": "Achievements",
@@ -725,6 +843,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/mithai-merge/01.webp",
+        "thumb": "/work/mithai-merge/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoIABAAA4BaJaACdADz22hGAAD+9LSvOjHwy2DyfuQnR93JO/1jR7ffeVyG6WpebLJP8c+d0iHWuVq0cAAAAA==",
         "w": 720,
         "h": 1453,
         "label": "Home",
@@ -732,6 +852,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/mithai-merge/02.webp",
+        "thumb": "/work/mithai-merge/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACwAQCdASoHABAAA4BaJZACdAEO/gLsAP7vGZl8/CbJyUoOBJWrMIAA",
         "w": 720,
         "h": 1557,
         "label": "Classic gameplay",
@@ -739,6 +861,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/mithai-merge/03.webp",
+        "thumb": "/work/mithai-merge/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoHABAAA4BaJZgCdAEPC0YpAAD+9EDPeUvdmwbIrWlb9gUfRGBda8/YeAAAAA==",
         "w": 720,
         "h": 1557,
         "label": "Hexagon board",
@@ -746,6 +870,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/mithai-merge/04.webp",
+        "thumb": "/work/mithai-merge/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoHABAAA4BaJYgCdAEO7Ny9gAD+9W7XBnsPEt5BoWDWbmDKLvU/Ka887VsfXYAA",
         "w": 720,
         "h": 1557,
         "label": "Campaign level",
@@ -753,6 +879,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/mithai-merge/05.webp",
+        "thumb": "/work/mithai-merge/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoHABAAA4BaJZgCdAEOuvwAQAD+qh+euYOGIgx/j3QcMxw6bk5RiLow5+D5fq5+OOgOKdBD3Y1RwKsTB65rxoLZ638LELDztWvXFkArgAA=",
         "w": 720,
         "h": 1557,
         "label": "Themes",
@@ -760,6 +888,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/mithai-merge/06.webp",
+        "thumb": "/work/mithai-merge/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoHABAAA4BaJYgCdAD0jS8a6AAA/vEWYjvjdo3g5JrYi/w6jabvhUzwUx4ElaswgAA=",
         "w": 720,
         "h": 1557,
         "label": "Codex",
@@ -767,6 +897,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/mithai-merge/07.webp",
+        "thumb": "/work/mithai-merge/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAABwAQCdASoHABAAA4BaJYgCdAFAAAD+8ioIPZDo96uk/U/lAAA=",
         "w": 720,
         "h": 1557,
         "label": "Stats",
@@ -774,6 +906,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/mithai-merge/08.webp",
+        "thumb": "/work/mithai-merge/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoHABAAA4BaJZACdAEOZzdAAP7y4gDirNsAynX6etE5wt0n6GngAA==",
         "w": 720,
         "h": 1557,
         "label": "Achievements",
@@ -814,6 +948,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/tallhour/01.webp",
+        "thumb": "/work/tallhour/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoIABAAA4BaJZwAAvqnphXAAP713ZSPz4HwtF+7f0errqP/Th5HKRESHhsfI8AA",
         "w": 720,
         "h": 1401,
         "label": "Block screen",
@@ -821,6 +957,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/tallhour/02.webp",
+        "thumb": "/work/tallhour/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoIABAAA4BaJaQAAupXZy+IAAD+8IdKg2paZcE27T0FSX63N6p1XlqDtYZmLBEkotEAAA==",
         "w": 720,
         "h": 1440,
         "label": "Home",
@@ -828,6 +966,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/tallhour/03.webp",
+        "thumb": "/work/tallhour/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAgCdASoIABAAA4BaJYwCdH8G6A5/8Dwxj0nHwAD+7W8+KRKCErY/7nRCruBrxfJqLd8SIqthqnyocGASZc4yl7yBgoAA",
         "w": 720,
         "h": 1440,
         "label": "Routines",
@@ -835,6 +975,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/tallhour/04.webp",
+        "thumb": "/work/tallhour/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoIABAAA4BaJZwAAp0JMsAA/u2i40fYrf6SsIxOYNeG/AAA",
         "w": 720,
         "h": 1440,
         "label": "Setup",
@@ -842,6 +984,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/tallhour/05.webp",
+        "thumb": "/work/tallhour/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoIABAAA4BaJZwAAptnS6pgAP74eY4ACbjwD31oZU4cGNEK+jeA6eLkTh6bg9QrZQGZ2sqCcQAAAA==",
         "w": 720,
         "h": 1440,
         "label": "Settings (dark)",
@@ -849,6 +993,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/tallhour/06.webp",
+        "thumb": "/work/tallhour/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRioAAABXRUJQVlA4IB4AAAAwAQCdASoHABAAA4BaJaQAA3AA/vBHfuLbR1SAAAA=",
         "w": 720,
         "h": 1557,
         "label": "Suitcase",
@@ -856,6 +1002,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/tallhour/07.webp",
+        "thumb": "/work/tallhour/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoHABAAA4BaJZQAAu1w8aoQAP724srGnLNv1x75NhkNGUhV8Z8duVw+pKLJiqx4PDDFz269AAA=",
         "w": 720,
         "h": 1557,
         "label": "Parachute",
@@ -863,6 +1011,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/tallhour/08.webp",
+        "thumb": "/work/tallhour/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRioAAABXRUJQVlA4IB4AAABQAQCdASoHABAAA4BaJaQABAAAAP7wlxlnZ/ALoAA=",
         "w": 720,
         "h": 1557,
         "label": "Tower",
@@ -904,6 +1054,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/klipnest/01.webp",
+        "thumb": "/work/klipnest/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoHABAAA4BaJZQAAudkpnCmgAD+93TZYt/QGtHyTGfCAYL+0KE5kAWQAAA=",
         "w": 460,
         "h": 997,
         "label": "Welcome / permission",
@@ -911,6 +1063,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/klipnest/02.webp",
+        "thumb": "/work/klipnest/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoHABAAA4BaJZQCdEf/ggfzjJT2AAD+6V99zwo1+Sslmt79yDSpZu+QWaK6bb0Gv6MRT/Jg/LajDSkzAOoAAA==",
         "w": 460,
         "h": 997,
         "label": "Home",
@@ -918,6 +1072,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/klipnest/03.webp",
+        "thumb": "/work/klipnest/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAACwAQCdASoHABAAA4BaJZwAAudGtHRgAP72u54FBa5n3jgA",
         "w": 460,
         "h": 997,
         "label": "Settings",
@@ -925,6 +1081,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/klipnest/04.webp",
+        "thumb": "/work/klipnest/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRioAAABXRUJQVlA4IB4AAAAwAQCdASoHABAABwBaJaQAA3AA/vQh+vg4Oh0UAAA=",
         "w": 460,
         "h": 997,
         "label": "Theme customisation",
@@ -965,6 +1123,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/abeeloo/01.webp",
+        "thumb": "/work/abeeloo/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoHABAAA4BaJbACdAEOr9+gAAD+3nBegYfMmLdwFjAduobEpMt4HJxy0B5/iHwEH/W7gtfPSZDvO9zzHQAAAA==",
         "w": 720,
         "h": 1557,
         "label": "Home island",
@@ -972,6 +1132,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/abeeloo/02.webp",
+        "thumb": "/work/abeeloo/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoHABAAA4BaJbACdAEQEr5G4iAA/t6qlKvVZ9J8Aj+xqmR5jfQkAiD+ZB4T41zanVOucf5ON19zIIidlqPXZT2pvRedMdUBZlGIUYAA",
         "w": 720,
         "h": 1557,
         "label": "Learn the letter A",
@@ -979,6 +1141,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/abeeloo/03.webp",
+        "thumb": "/work/abeeloo/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoHABAAA4BaJbACdAEOeG09QAD+3m8/XZ80YBk18mKivrxMqwp+Tq8GNZtt2c4XR74X/JxuvtHDPk6A3h9j5qB70NEEUAAA",
         "w": 720,
         "h": 1557,
         "label": "Explore letters",
@@ -986,6 +1150,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/abeeloo/04.webp",
+        "thumb": "/work/abeeloo/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAgCdASoHABAAA4BaJbACdLoAAwxQQraAfZ7gAP7eiHI4kV68O0bDHZKreZ02Y04FawQ5/xxRIcNcn8ZYxpp4R/15TkHhY5V2QAAA",
         "w": 720,
         "h": 1557,
         "label": "Celebration",
@@ -993,6 +1159,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/abeeloo/05.webp",
+        "thumb": "/work/abeeloo/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoHABAAA4BaJbACdAD0LJRCkAD+33Y3xhQyLn20+UUPacU65m/VPaa03MjjM0vuzof+TjdfaYRiD5e72rIXqgNelYAAAA==",
         "w": 720,
         "h": 1557,
         "label": "A for Ant",
@@ -1035,6 +1203,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/kirana-store-tycoon/01.webp",
+        "thumb": "/work/kirana-store-tycoon/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoHABAAA4BaJQBOgCIhDJ8WWBAA/nPkfnESmjKtchsg0z5SOQTKto+7SqWsYt8guGUtFdHoKCvpdcCcIl0AAA==",
         "w": 720,
         "h": 1557,
         "label": "Shop (dukaan) main",
@@ -1042,6 +1212,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/kirana-store-tycoon/02.webp",
+        "thumb": "/work/kirana-store-tycoon/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoHABAAA4BaJaACdAEOZcFygAD+8lzrXkSfnCMDyn1o5OT7e6gZEgLeh9xWyXcoamynLyzPgFIoq9X+cgAAAA==",
         "w": 720,
         "h": 1557,
         "label": "Billing",
@@ -1049,6 +1221,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/kirana-store-tycoon/03.webp",
+        "thumb": "/work/kirana-store-tycoon/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoHABAAA4BaJZQAAqsZYZ9gAAD+9mBlzdi88JtbamwnvURKSoYB7pqgp/x3i4AA",
         "w": 720,
         "h": 1557,
         "label": "Upgrades",
@@ -1056,6 +1230,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/kirana-store-tycoon/04.webp",
+        "thumb": "/work/kirana-store-tycoon/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoHABAAA4BaJZQAAp0tWqZnoAD+9hpoOcn642NK1c1PgjFGdRPvexj59KDSeO9wQAA=",
         "w": 720,
         "h": 1557,
         "label": "Godown stock",
@@ -1063,6 +1239,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/kirana-store-tycoon/05.webp",
+        "thumb": "/work/kirana-store-tycoon/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAADQAQCdASoHABAAA4BaJZQC7AEPDcqY5AD+9lshSow3x48rNCwAAA==",
         "w": 720,
         "h": 1557,
         "label": "Mandi restock",
@@ -1070,6 +1248,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/kirana-store-tycoon/06.webp",
+        "thumb": "/work/kirana-store-tycoon/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAADwAQCdASoHABAAA4BaJYwCdAEO9t9JzAAA/vdV6NjVy/g0swAAAA==",
         "w": 720,
         "h": 1557,
         "label": "Orders",
@@ -1077,6 +1257,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/kirana-store-tycoon/07.webp",
+        "thumb": "/work/kirana-store-tycoon/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoHABAAA4BaJYwCdAEOZfWHoAD+DzdeElS+MEqrf4KD2Qw1jTf1yGGkld861uGn4yF3NR1Lp9dgAA==",
         "w": 720,
         "h": 1557,
         "label": "Offline earnings",
@@ -1119,6 +1301,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/school-masti-mania/01.webp",
+        "thumb": "/work/school-masti-mania/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAcAA4BaJQBOkCYivV//5JoAgAD8/XJNKwFZUnvmcTM2+BVt5PecDAK0tW50WoftEIesD388C5cgIdskHAAA",
         "w": 1400,
         "h": 630,
         "label": "Home",
@@ -1126,6 +1310,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-mania/02.webp",
+        "thumb": "/work/school-masti-mania/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAcAA4BaJQBOj+ACqvuNBwAAzj5Fnv5h/xtOUqQOhsnJfICO4bgZD4opvvjzlLKkXP2hpENLbapjhAAAAA==",
         "w": 1400,
         "h": 630,
         "label": "Gameplay (stealth prank)",
@@ -1133,6 +1319,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-mania/03.webp",
+        "thumb": "/work/school-masti-mania/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAcAA4BaJYgCdADwZDKZwADhnJLvzbkVFjx2c+vmZHGc2tH3RPt7P4z9GBz7q62ZCMewyCmErzvWx22dxGgCI4AAAA==",
         "w": 1400,
         "h": 630,
         "label": "School campus map",
@@ -1140,6 +1328,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-mania/04.webp",
+        "thumb": "/work/school-masti-mania/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAcAA4BaJZwAAvd3AEFAAP7oiaHLOHUbanjRgnVvnQLYth8xbLdJIBxsSUFnzEhL4QAA",
         "w": 1400,
         "h": 630,
         "label": "Characters",
@@ -1147,6 +1337,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-mania/05.webp",
+        "thumb": "/work/school-masti-mania/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAcAA4BaJZwAAujclMQPAAD+sjzf1E6PaeT98/A9yGJ8sb0tk3MM0AAAAA==",
         "w": 1400,
         "h": 630,
         "label": "Missions",
@@ -1154,6 +1346,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-mania/06.webp",
+        "thumb": "/work/school-masti-mania/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAcAA4BaJQBOgCHf1vaoAP7oiIgkwMzNfLnSF2DRRPnOI7fMjktUdT5I6g6F4aTPtV3nQVl6aAuJGZUKAAAA",
         "w": 1400,
         "h": 630,
         "label": "Shop",
@@ -1161,6 +1355,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-mania/07.webp",
+        "thumb": "/work/school-masti-mania/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAcAA4BaJYwAAujSdQkiAAD+wbmIgFgdCGvqjxp6Q4iWjs/PcBc2gMySyzaQa9JxIZHeHMjusGtsjjQMwUAA",
         "w": 1400,
         "h": 630,
         "label": "Daily reward",
@@ -1168,6 +1364,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-mania/08.webp",
+        "thumb": "/work/school-masti-mania/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAcAA4BaJZwAAv+p5ajegAD+6gptCkY+iqfgFpRre8l5Z/1Y6YhKds+jbT5vZEji/aA/IAAfIYKAAAA=",
         "w": 1400,
         "h": 630,
         "label": "Parent zone",
@@ -1206,6 +1404,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/school-masti-3d/01.webp",
+        "thumb": "/work/school-masti-3d/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAcAA4BaJZgC7AEUqwbKeAAA/qoc14AXPpSUO8wgrbwIr2O3deCKlr1qUVP6eaFNp1nHAAA=",
         "w": 1400,
         "h": 630,
         "label": "Main menu",
@@ -1213,6 +1413,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-3d/02.webp",
+        "thumb": "/work/school-masti-3d/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAcAA4BaJQBOgCKJssxH8ybgAN5lY11eH3WbOGcwCViYTXx9ugNTco3bIoquKwpXCjxIJxBM80SoIAAAAA==",
         "w": 1400,
         "h": 630,
         "label": "Classroom",
@@ -1220,6 +1422,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-3d/03.webp",
+        "thumb": "/work/school-masti-3d/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAcAA4BaJaACdAEf8EXusYAA/tUJv3m2HcjfrNjwvZD8Kgwq3q69hPUm4sviaTdN9sdTaSaAAA==",
         "w": 1400,
         "h": 630,
         "label": "Garden fountain",
@@ -1227,6 +1431,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-3d/04.webp",
+        "thumb": "/work/school-masti-3d/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAcAA4BaJQBOgCKlwRR9QAD+8umpnp0t4u3ZUdAXtceRyXeu+IKM3MATnu2WAAA=",
         "w": 1400,
         "h": 630,
         "label": "Campus at night",
@@ -1234,6 +1440,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-3d/05.webp",
+        "thumb": "/work/school-masti-3d/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAcAA4BaJaACdAD5jeSY0AD+xf8HhqVkzn7cEEmW+NA6yQE2Kga4Dof/WvKzdOAAAA==",
         "w": 1400,
         "h": 630,
         "label": "Riding a cycle",
@@ -1241,6 +1449,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-3d/06.webp",
+        "thumb": "/work/school-masti-3d/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAcAA4BaJagCdH8AGDEB40uAAP3fYGWcZBSxU6ycFh1vdast/MJ3HdXo5knQs2AcVrnkfP8ZYHdbaREOzjh1smgAAA==",
         "w": 1400,
         "h": 630,
         "label": "Basketball mini-game",
@@ -1248,6 +1458,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-3d/07.webp",
+        "thumb": "/work/school-masti-3d/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAcAA4BaJQBOgCIfpvVPQAD+6ktxLOKbg2o3nSBe6qVzydX+wg2wmII0TroTdOj2MkoOCfAAAA==",
         "w": 1400,
         "h": 630,
         "label": "School map",
@@ -1255,6 +1467,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/school-masti-3d/08.webp",
+        "thumb": "/work/school-masti-3d/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAcAA4BaJbACdADHWrEogAD+5fw9IJjgKb7vz4sLYFCxYQbPZLSaRlMnKSV/dG2m6lpZgAA=",
         "w": 1400,
         "h": 630,
         "label": "Wardrobe",
@@ -1291,6 +1505,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/holefeast/01.webp",
+        "thumb": "/work/holefeast/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoJABAAA4BaJaACdAEPDWwLY4oAAPfU9PqImzjVvrcIV6VJDq6HkqKggslNdtUo50/5gHLu0cKhIozwE/5HZ3EQRNMd7CaZDmtUEADxszIErbWCSAA=",
         "w": 540,
         "h": 960,
         "label": "Home",
@@ -1298,6 +1514,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/holefeast/02.webp",
+        "thumb": "/work/holefeast/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoJABAAA4BaJZgCdAEQFTgb6g4AAP7u6lmaQFNOE2/+yrAje7aBRdWc5IQdxfxZs25R2bNKY5zYAAAA",
         "w": 540,
         "h": 960,
         "label": "Gameplay",
@@ -1305,6 +1523,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/holefeast/03.webp",
+        "thumb": "/work/holefeast/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoJABAAA4BaJYgCdAD5aaFIAP7BalXK6JmBaWtSNE255iFl5lQANKLUkzV7dVPNAi0G6ccSnhe6tgAA",
         "w": 540,
         "h": 960,
         "label": "Night field",
@@ -1312,6 +1532,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/holefeast/04.webp",
+        "thumb": "/work/holefeast/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoJABAAA4BaJZwC1I/7BO7f9o7oAAD+7BFLejfdV0pfzu+XYG5Pj0GEOEaWqQuMKpX9+RKWFssxcWG+4F+6ZAAA",
         "w": 540,
         "h": 960,
         "label": "Hole skin shop",
@@ -1319,6 +1541,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/holefeast/05.webp",
+        "thumb": "/work/holefeast/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoJABAAA4BaJZQCdAEOPCxNV4AA/vaWv4iNsivZXdvRgjz5eUNNXvhXenzsxe5+osRcSs4XpMvtgQDWehtAdQAA",
         "w": 540,
         "h": 960,
         "label": "Fields",
@@ -1326,6 +1550,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/holefeast/06.webp",
+        "thumb": "/work/holefeast/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoJABAAA4BaJYgCdAD5j2JGeWwAAP7RaNghG1O4BuQs4exsVfsE0bcFeTK+EyRTekrAv/rdTddau3Q8hrLm0pJTFIbSyG/Ey3Tk6/ZAAAA=",
         "w": 540,
         "h": 960,
         "label": "Level won",
@@ -1367,6 +1593,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/dadawala-clothing-shop/01.webp",
+        "thumb": "/work/dadawala-clothing-shop/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAwAgCdASoQAAoAA4BaJZQCdAEQNMX/2MKoAAD+9QeLzFtWWmCY8cWwuiqSvWWGZ2yj3IxEuDj2D3AA",
         "w": 1440,
         "h": 900,
         "label": "Home",
@@ -1374,6 +1602,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/dadawala-clothing-shop/02.webp",
+        "thumb": "/work/dadawala-clothing-shop/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoHABAAA4BaJZQCdADdi1cBR4AA/vUiRdW/Bd6GxtgBNzIsWhKKZC96L/XdisP52ZfG1wGs8AA=",
         "w": 720,
         "h": 1558,
         "label": "Home (mobile)",
@@ -1381,6 +1611,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/dadawala-clothing-shop/03.webp",
+        "thumb": "/work/dadawala-clothing-shop/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAoAA4BaJYgCw7EOlYxm3UAA/vOvcGTTvrbEWkQTzg/W5bFWoD3meknFH4Nz72hy05tG9gPTGmbBWRtcGFuTcj0gzr0r0Qi7hmy0o7q+GCtw80AAAA==",
         "w": 1440,
         "h": 900,
         "label": "Product catalogue",
@@ -1388,6 +1620,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/dadawala-clothing-shop/04.webp",
+        "thumb": "/work/dadawala-clothing-shop/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoHABAAA4BaJQAAXun0ccXAAP7x/lzhRguka5+/Cqhxvmj9NEyK5r/eIL8C1W8plo5N0/L7JO8HjVgA",
         "w": 720,
         "h": 1558,
         "label": "Product catalogue (mobile)",
@@ -1395,6 +1629,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/dadawala-clothing-shop/05.webp",
+        "thumb": "/work/dadawala-clothing-shop/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAoAA4BaJQBOgCHoeoduQAD+9QeLzIblpEgvKwdmb2b4TYHG+1bEJaI51on5iDSX/zZYx6qehSjY5VRx00vgP3L0IVvYQwq37N9T0UAAAA==",
         "w": 1440,
         "h": 900,
         "label": "Offers",
@@ -1402,6 +1638,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/dadawala-clothing-shop/06.webp",
+        "thumb": "/work/dadawala-clothing-shop/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoHABAAA4BaJYgC7AEDd8I3ugAA/vUaVHV7Bhu/mfbCbTOrUrf4Mk7aV3LvHV3bR8y8g7BR2Y75Q0L36YWpxumpVFAAAA==",
         "w": 720,
         "h": 1558,
         "label": "Offers (mobile)",
@@ -1409,6 +1647,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/dadawala-clothing-shop/07.webp",
+        "thumb": "/work/dadawala-clothing-shop/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAoAA4BaJZQAAudjlU7TAAD+9QeLm953s/C9eIlXUIag3o5lSlPc9cAAAA==",
         "w": 1440,
         "h": 900,
         "label": "About",
@@ -1416,6 +1656,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/dadawala-clothing-shop/08.webp",
+        "thumb": "/work/dadawala-clothing-shop/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoHABAAA4BaJaQAAlp9nPogAP71IkXWx2k7CjA5MKrXR6+a9U45urJnFhoAAA==",
         "w": 720,
         "h": 1558,
         "label": "About (mobile)",
@@ -1423,6 +1665,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/dadawala-clothing-shop/09.webp",
+        "thumb": "/work/dadawala-clothing-shop/09_t.webp",
+        "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAoAA4BaJZQAAudGm5d8AAD+9QeLmua8FJUCBQBc8Hu1MzJSNashx4+564AA",
         "w": 1440,
         "h": 900,
         "label": "Contact",
@@ -1430,6 +1674,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/dadawala-clothing-shop/10.webp",
+        "thumb": "/work/dadawala-clothing-shop/10_t.webp",
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoHABAAA4BaJZwAAsZq93IAAP71IkoEarbww1tPeHJZy9X+ilgyAJIA3fCAAA==",
         "w": 720,
         "h": 1558,
         "label": "Contact (mobile)",
@@ -1469,6 +1715,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/business-website-designs/01.webp",
+        "thumb": "/work/business-website-designs/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQAAoAA4BaJZQC7H8AGEjqeZrYAAD+8jyZhEM2WVcPKpEWs+bWu9869yQ3t8wadEufmP8loB8avC8HRB6b7WL4AAA=",
         "w": 1440,
         "h": 900,
         "label": "Clinic / doctor",
@@ -1476,6 +1724,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/02.webp",
+        "thumb": "/work/business-website-designs/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoHABAAA4BaJYwAAudLMucAAP7hp59fFr3g1pzC9yqGfdcD68lDJcek5PjTe/WjiG5O2oPFgBqAAA==",
         "w": 720,
         "h": 1558,
         "label": "Clinic / doctor (mobile)",
@@ -1483,6 +1733,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/03.webp",
+        "thumb": "/work/business-website-designs/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAoAA4BaJZQAAudlt88YAAD+8hX9PJCoaHqq1r/zwpLCbO55wF3YPi/qiBIjNlZmktgA",
         "w": 1440,
         "h": 900,
         "label": "Beauty & salon",
@@ -1490,6 +1742,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/04.webp",
+        "thumb": "/work/business-website-designs/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoHABAAA4BaJQAAXO+9thdAAP7XPbg7tMe3L5xqx0auQtPUG4rpuSTR2Ya9DrdNN1XuVOhW7LnZ2GZX8/NCcfTW6AA=",
         "w": 720,
         "h": 1558,
         "label": "Beauty & salon (mobile)",
@@ -1497,6 +1751,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/05.webp",
+        "thumb": "/work/business-website-designs/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoQAAoAA4BaJZwCw7EOI+oAAP7yPJl+vhD0Xod6qTeSh00yZJ7qpIAA",
         "w": 1440,
         "h": 900,
         "label": "Clothing brand",
@@ -1504,6 +1760,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/06.webp",
+        "thumb": "/work/business-website-designs/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAgCdASoHABAAA4BaJYwCdH8I//bf4HonjeHOAAAA/uhM1wf2ryjuMdrruEPmAWyDRsChJBttE1nZjYKzenecn20gyXAAAAA=",
         "w": 720,
         "h": 1558,
         "label": "Clothing brand (mobile)",
@@ -1511,6 +1769,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/07.webp",
+        "thumb": "/work/business-website-designs/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAoAA4BaJZgC7AEOk2lSQAD+8EsjhYe06VKDDBRtUt/FQwHiwbWI/BzugX/ZTyxbXr2kapnQQ/FtVsus/4iQGjL4ucPeHkqX3td1m4lXoffYAAA=",
         "w": 1440,
         "h": 900,
         "label": "E-commerce",
@@ -1518,6 +1778,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/08.webp",
+        "thumb": "/work/business-website-designs/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoHABAAA4BaJYwAAuWpbXgAAP7hp59fFr3g1rXzC6rMtmhl2s0+DYryeuI0g6buiYG0tLlfWjiG1yOIbVwCckAAAAA=",
         "w": 720,
         "h": 1558,
         "label": "E-commerce (mobile)",
@@ -1525,6 +1787,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/09.webp",
+        "thumb": "/work/business-website-designs/09_t.webp",
+        "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoQAAoAA4BaJaQAAudg01AAAP7wSxrv8ZR3rs8OS/jT9ZUKsnUrr1AMr6HfQAAA",
         "w": 1440,
         "h": 900,
         "label": "Product catalogue",
@@ -1532,6 +1796,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/10.webp",
+        "thumb": "/work/business-website-designs/10_t.webp",
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoHABAAA4BaJZwAAudnfxArUAD+1z2/fcRby2C0E0IFK4kM6l3OlhXkasv962/9wRspS1J7t5vl5kwgAAA=",
         "w": 720,
         "h": 1558,
         "label": "Product catalogue (mobile)",
@@ -1539,6 +1805,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/11.webp",
+        "thumb": "/work/business-website-designs/11_t.webp",
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoQAAoAA4BaJZwAAtsVeGsAAP7z93E3GLTLa+80N/XXHYjyffu+VevBbg/SJYAQAAA=",
         "w": 1440,
         "h": 900,
         "label": "Business profile",
@@ -1546,6 +1814,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/12.webp",
+        "thumb": "/work/business-website-designs/12_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoHABAAA4BaJYwAAudiKaBAAP7zqQIN4IcP86az4XN0W2YwvxFc0O/ZS2fD51qNLvYckBHxf3KjncfrroAFkAAA",
         "w": 720,
         "h": 1558,
         "label": "Business profile (mobile)",
@@ -1553,6 +1823,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/13.webp",
+        "thumb": "/work/business-website-designs/13_t.webp",
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAAAwAQCdASoQAAoAA4BaJZwAA3AA/vOb7ij8uwcShDtfNSBR++O9R0Nlui5cdmrL3qhAAA==",
         "w": 1440,
         "h": 900,
         "label": "Portfolio",
@@ -1560,6 +1832,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/business-website-designs/14.webp",
+        "thumb": "/work/business-website-designs/14_t.webp",
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoHABAAA4BaJZwAAueE/eQAAP7zqQIN4JCy1hOkcRDaPuiRn8WbES0yTdqCPt6EAAA=",
         "w": 720,
         "h": 1558,
         "label": "Portfolio (mobile)",
@@ -1598,6 +1872,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/reasonmaster-india/01.webp",
+        "thumb": "/work/reasonmaster-india/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAoAA4BaJQBOgCH8kszgEGAA/vGANSSQKsJb+xaswTucaW+O7Qll6HgQbb9ZMRfLhK1NAUrsvL2AMix6nmwEVQgAAA==",
         "w": 1440,
         "h": 900,
         "label": "Home",
@@ -1605,6 +1881,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/reasonmaster-india/02.webp",
+        "thumb": "/work/reasonmaster-india/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoHABAAA4BaJYwCdAEO+mmg+oAA/vK9eF59YzvTibUjG87WJN3zNHwh/YI8tNfJ7lrhighzZa7UUY7W2NTIAAAA",
         "w": 720,
         "h": 1558,
         "label": "Home (mobile)",
@@ -1644,6 +1922,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/seminarkaran/01.webp",
+        "thumb": "/work/seminarkaran/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAsAA4BaJZwAAudLB76kAAD+937d0/7UkDtk/y4I3qsORpl/YJZpARtK4fmLvHkfpXVYeQAAAA==",
         "w": 1432,
         "h": 994,
         "label": "Home",
@@ -1651,6 +1931,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/seminarkaran/02.webp",
+        "thumb": "/work/seminarkaran/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAsAA4BaJZwAAug0YpyAIAD+94L17Ik+9UrOcrqQOJD+XRRiTmv8nBgCXgAA",
         "w": 1432,
         "h": 994,
         "label": "Seminars",
@@ -1658,6 +1940,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/seminarkaran/03.webp",
+        "thumb": "/work/seminarkaran/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACwAQCdASoQAAsAA4BaJZwAAujbZrwAAP73fQehLJ6Mver/RiFdw8gA",
         "w": 1432,
         "h": 994,
         "label": "Projects",
@@ -1665,6 +1949,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/seminarkaran/04.webp",
+        "thumb": "/work/seminarkaran/04_t.webp",
+        "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAsAA4BaJZwAAug1R5iOAAD+94L15InHP2awKzUt1L5v/MWwIvyVS2kS8AAA",
         "w": 1432,
         "h": 994,
         "label": "About",
@@ -1672,6 +1958,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/seminarkaran/05.webp",
+        "thumb": "/work/seminarkaran/05_t.webp",
+        "blur": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAABQAQCdASoQAAsAA4BaJZwABAAAAP70H2dzAn0A+m3excph2sRGbkvAAAA=",
         "w": 1432,
         "h": 994,
         "label": "Book",
@@ -1679,6 +1967,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/seminarkaran/06.webp",
+        "thumb": "/work/seminarkaran/06_t.webp",
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoHABAAA4BaJZQC7AERHtvKyAAA/vW1g61gQxzUSoZmySOydDisEK/1O9woT79w+Hvpgd/2PYIBsAAA",
         "w": 382,
         "h": 826,
         "label": "Home (mobile)",
@@ -1686,6 +1976,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/seminarkaran/07.webp",
+        "thumb": "/work/seminarkaran/07_t.webp",
+        "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoHABAAA4BaJZwAAudkFv/WHQAA/vQ7/akj2FJXWK+wpKCGM6dOW0CUMPIAAA==",
         "w": 382,
         "h": 826,
         "label": "Seminars (mobile)",
@@ -1693,6 +1985,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/seminarkaran/08.webp",
+        "thumb": "/work/seminarkaran/08_t.webp",
+        "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAABQAQCdASoHABAAA4BaJZwABAAAAP7zfuvuAWbTW6PCZYe8qXH9h5AA",
         "w": 382,
         "h": 826,
         "label": "Contact (mobile)",
@@ -1733,6 +2027,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/pocket-arcade/01.webp",
+        "thumb": "/work/pocket-arcade/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoQAAoAA4BaJZwC7AERFUDEAP7xhiUXX2UcDI5+g5+IPEB8GDXwwbRy29+J30DAAAA=",
         "w": 1440,
         "h": 900,
         "label": "Game library",
@@ -1740,6 +2036,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pocket-arcade/02.webp",
+        "thumb": "/work/pocket-arcade/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAABwAQCdASoQAAoAA4BaJZwCw7F1AAD+8+HZeGnD3qIQa7hCAAA=",
         "w": 1440,
         "h": 900,
         "label": "Memory Vault game",
@@ -1747,6 +2045,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/pocket-arcade/03.webp",
+        "thumb": "/work/pocket-arcade/03_t.webp",
+        "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoHABAAA4BaJZwC7AD0bbGWUoAA/vWCdXvmTeDJ9/dPPqwzyRp2zoAA",
         "w": 390,
         "h": 844,
         "label": "Game on mobile",
@@ -1784,6 +2084,8 @@ export const PROJECTS: Project[] = [
     "shots": [
       {
         "src": "/work/app-legal-portal/01.webp",
+        "thumb": "/work/app-legal-portal/01_t.webp",
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAoAA4BaJYwCdAEPDBSFqgAA/mz1QTGO+Tg2CdHoYbRNxQtXRFAnPPjCO9vzDsqwfO1h2qQUAfEH8Hr2AAAA",
         "w": 1440,
         "h": 900,
         "label": "Home",
@@ -1791,6 +2093,8 @@ export const PROJECTS: Project[] = [
       },
       {
         "src": "/work/app-legal-portal/02.webp",
+        "thumb": "/work/app-legal-portal/02_t.webp",
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoHABAAA4BaJQBOgCHggBigAP3jvx9oY+D+BjB2Mytz/Lj3GGk5iopRRCu0Od6FVNyHUpqJp0mwjRszmQAAAA==",
         "w": 720,
         "h": 1558,
         "label": "Home (mobile)",

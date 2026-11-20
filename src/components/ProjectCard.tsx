@@ -1,17 +1,33 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Project } from "@/types";
+import type { Project, Shot } from "@/types";
 import StatusBadge, { KIND_LABEL } from "./StatusBadge";
 
+/** Small card image: uses the thumbnail and shows a blurred preview until it loads. */
+function Thumb({ s, sizes, eager, className }: { s: Shot; sizes: string; eager: boolean; className: string }) {
+  return (
+    <Image
+      src={s.thumb ?? s.src}
+      alt=""
+      fill
+      sizes={sizes}
+      priority={eager}
+      loading={eager ? undefined : "lazy"}
+      placeholder={s.blur ? "blur" : "empty"}
+      blurDataURL={s.blur}
+      className={className}
+    />
+  );
+}
+
 /** Card preview: a desktop screenshot fills the frame; phone screenshots sit side by side. */
-function Preview({ p }: { p: Project }) {
+function Preview({ p, eager }: { p: Project; eager: boolean }) {
   const desktop = p.cover ?? p.shots.find((s) => s.frame === "desktop");
   if (desktop && (p.kind === "website" || p.kind === "webapp" || p.cover)) {
     return (
-      <Image
-        src={desktop.src}
-        alt={`${p.name} preview`}
-        fill
+      <Thumb
+        s={desktop}
+        eager={eager}
         sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
         className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
       />
@@ -26,7 +42,7 @@ function Preview({ p }: { p: Project }) {
             key={s.src}
             className={`relative aspect-[9/19] w-[30%] overflow-hidden rounded-t-xl border border-b-0 border-line bg-bg shadow-sm ${i === 1 ? "translate-y-0" : "translate-y-3"}`}
           >
-            <Image src={s.src} alt="" fill sizes="120px" className="object-cover object-top" />
+            <Thumb s={s} eager={eager} sizes="130px" className="object-cover object-top" />
           </div>
         ))}
       </div>
@@ -39,14 +55,15 @@ function Preview({ p }: { p: Project }) {
   ) : null;
 }
 
-export default function ProjectCard({ p }: { p: Project }) {
+/** `eager` loads the card's images straight away (used for the first row). */
+export default function ProjectCard({ p, eager = false }: { p: Project; eager?: boolean }) {
   return (
     <Link
       href={`/work/${p.slug}`}
       className="group flex flex-col overflow-hidden rounded-xl2 border border-line bg-bg transition-shadow hover:shadow-lg hover:shadow-black/5"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-surface">
-        <Preview p={p} />
+        <Preview p={p} eager={eager} />
       </div>
       <div className="flex flex-1 flex-col gap-3 p-4">
         <div className="flex items-start gap-3">

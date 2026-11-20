@@ -4,6 +4,15 @@ import WorkGrid from "@/components/WorkGrid";
 import { MORE_PROJECTS, PROJECTS } from "@/data/projects";
 import { PROCESS, PROFILE, SERVICES, STACK, whatsappLink } from "@/data/profile";
 
+// Cards only need a few fields and up to 3 screenshots; sending less keeps the page light.
+const cardData = PROJECTS.map((p) => ({
+  ...p,
+  description: "",
+  features: [],
+  tech: [],
+  shots: [...p.shots.filter((s) => s.frame === "desktop").slice(0, 1), ...p.shots.filter((s) => s.frame === "phone").slice(0, 3)],
+}));
+
 export default function Home() {
   const stats = [
     { n: PROJECTS.length + MORE_PROJECTS.length, label: "apps & websites built" },
@@ -59,7 +68,7 @@ export default function Home() {
               Real projects with screenshots, the technology used and when each was built. Tap any project for the full details and links.
             </p>
           </div>
-          <WorkGrid projects={PROJECTS} />
+          <WorkGrid projects={cardData} />
 
           <div className="mt-16">
             <h3 className="text-lg font-semibold">Also built</h3>

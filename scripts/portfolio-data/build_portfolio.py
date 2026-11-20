@@ -1,5 +1,5 @@
 """Builds portfolio images (public/work/<slug>/) and src/data/projects.ts from the curated list below."""
-import json, os, shutil, re
+import json, os, shutil, re, io, base64
 from PIL import Image
 
 SCR = os.path.dirname(os.path.abspath(__file__))
@@ -42,7 +42,11 @@ def process(src, dst, frame, top=0.0, bottom=0.0, aspect=None):
     else:
         im.thumbnail((1400, 1400) if frame == "tablet" else (720, 1600), Image.LANCZOS)
     im.save(dst, "WEBP", quality=80, method=6)
-    return im.size
+    # Small thumbnail for project cards and a tiny blurred preview shown while images load.
+    t = im.copy(); t.thumbnail((720, 720) if im.width > im.height else (260, 580), Image.LANCZOS)
+    t.save(dst.replace(".webp", "_t.webp"), "WEBP", quality=72, method=6)
+    b = im.copy(); b.thumbnail((16, 16)); buf = io.BytesIO(); b.save(buf, "WEBP", quality=40)
+    return im.size, "data:image/webp;base64," + base64.b64encode(buf.getvalue()).decode()
 
 def icon(src, dst_dir):
     if src.lower().endswith(".svg"):
@@ -53,8 +57,8 @@ def icon(src, dst_dir):
     if bb: im = im.crop(bb)
     side = max(im.size); sq = Image.new("RGBA", (side, side), (0, 0, 0, 0))
     sq.paste(im, ((side - im.width) // 2, (side - im.height) // 2)); im = sq
-    im.thumbnail((256, 256), Image.LANCZOS)
-    im.save(os.path.join(dst_dir, "icon.webp"), "WEBP", quality=90, method=6)
+    im.thumbnail((176, 176), Image.LANCZOS)
+    im.save(os.path.join(dst_dir, "icon.webp"), "WEBP", quality=82, method=6)
     return "icon.webp"
 
 def month_range(p):
@@ -251,8 +255,8 @@ def main():
             if not os.path.exists(path):
                 print("  MISSING", path); continue
             fn = f"{i + 1:02d}.webp"
-            w, h = process(path, os.path.join(d, fn), frame, top, bottom, aspect)
-            shots.append(dict(src=f"/work/{p['slug']}/{fn}", w=w, h=h, label=label, frame="desktop" if frame == "desktop" else "phone" if h > w else "tablet"))
+            (w, h), blur = process(path, os.path.join(d, fn), frame, top, bottom, aspect)
+            shots.append(dict(src=f"/work/{p['slug']}/{fn}", thumb=f"/work/{p['slug']}/{fn.replace('.webp', '_t.webp')}", blur=blur, w=w, h=h, label=label, frame="desktop" if frame == "desktop" else "phone" if h > w else "tablet"))
         p = {**p, **OVERRIDE.get(p["slug"], {})}
         tech = tech_list(p.get("tech") or src.get("tech"))
         desc = p.get("description") or src.get("description") or ""

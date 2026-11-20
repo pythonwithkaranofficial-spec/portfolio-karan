@@ -3,6 +3,10 @@ export type ProjectStatus = "live" | "published" | "ready" | "in-progress";
 
 export interface Shot {
   src: string;
+  /** Small version for cards */
+  thumb?: string;
+  /** Tiny base64 preview shown while loading */
+  blur?: string;
   w: number;
   h: number;
   label?: string;

@@ -49,9 +49,12 @@ export default function Gallery({ shots, name }: { shots: Shot[]; name: string }
                 style={{ aspectRatio: `${s.w} / ${s.h}` }}
               >
                 <Image
-                  src={s.src}
+                  src={wide ? s.thumb ?? s.src : s.src}
                   alt={s.label ? `${name}: ${s.label}` : `${name} screenshot ${i + 1}`}
                   fill
+                  loading={i < 3 ? "eager" : "lazy"}
+                  placeholder={s.blur ? "blur" : "empty"}
+                  blurDataURL={s.blur}
                   sizes={wide ? "(min-width: 640px) 560px, 85vw" : "(min-width: 640px) 220px, 44vw"}
                   className="object-cover transition-opacity group-hover:opacity-90"
                 />
