@@ -27,3 +27,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# raw screenshot captures used by scripts/portfolio-data/build_portfolio.py
+scripts/portfolio-data/caps/
+scripts/portfolio-data/inv_*.json
