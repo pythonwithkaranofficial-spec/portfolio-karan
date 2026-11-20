@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Check, Clock, Mail, MessageCircle, Phone } from "lucide-react";
+import Link from "next/link";
+import { Check, Clock, FileText, Mail, MessageCircle, Phone, RotateCcw, ShieldCheck } from "lucide-react";
 import WorkGrid from "@/components/WorkGrid";
 import { MORE_PROJECTS, PROJECTS } from "@/data/projects";
 import { PROCESS, PROFILE, SERVICES, STACK, whatsappLink } from "@/data/profile";
@@ -182,6 +183,18 @@ export default function Home() {
                 <Mail size={16} /> Email
               </a>
             </div>
+          </div>
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            <span className="text-sm text-muted">Clear and simple policies:</span>
+            <Link href="/terms" className="btn-ghost">
+              <FileText size={16} /> Terms &amp; Conditions
+            </Link>
+            <Link href="/privacy" className="btn-ghost">
+              <ShieldCheck size={16} /> Privacy Policy
+            </Link>
+            <Link href="/refund-policy" className="btn-ghost">
+              <RotateCcw size={16} /> Refund Policy
+            </Link>
           </div>
         </div>
       </section>

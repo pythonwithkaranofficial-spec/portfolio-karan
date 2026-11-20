@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Prose from "@/components/Prose";
 import { PROFILE } from "@/data/profile";
 import { PROJECTS } from "@/data/projects";
@@ -13,8 +14,9 @@ export default function PrivacyPage() {
   return (
     <Prose title="Privacy Policy" updated="20 November 2026">
       <p>
-        This policy covers this portfolio website and the apps and websites published by {PROFILE.name} (&quot;I&quot;, &quot;me&quot;).
-        Apps that have their own privacy policy inside the app or on their Play Store listing follow that policy first.
+        Your privacy matters to me. I collect as little information as possible and only use it to help you. This policy covers
+        this portfolio website and the apps and websites published by {PROFILE.name} (&quot;I&quot;, &quot;me&quot;). Apps that
+        have their own privacy policy inside the app or on their Play Store listing follow that policy first.
       </p>
       {apps.length > 0 && (
         <>
@@ -53,10 +55,12 @@ export default function PrivacyPage() {
         children, and any ads shown are limited to family-safe ad settings.
       </p>
       <h2>Sharing and security</h2>
-      <p>I never sell or rent personal data. Data in transit uses HTTPS.</p>
+      <p>Your information is safe with me: I never sell or rent personal data, and this website uses secure HTTPS connections.</p>
       <h2>Your rights</h2>
       <p>
-        To ask what data I hold about you or to have it deleted, email <a href={`mailto:${PROFILE.email}`}>{PROFILE.email}</a>.
+        You can ask anytime what data I hold about you or have it deleted — just email{" "}
+        <a href={`mailto:${PROFILE.email}`}>{PROFILE.email}</a> and I&apos;ll take care of it. See also the{" "}
+        <Link href="/terms">Terms &amp; Conditions</Link> and <Link href="/refund-policy">Refund Policy</Link>.
       </p>
     </Prose>
   );
