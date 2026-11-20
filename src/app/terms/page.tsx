@@ -77,6 +77,10 @@ export default function TermsPage() {
           restarts.
         </li>
         <li>A restarted project gets a new timeline based on availability, and the same terms and refund policy apply to it.</li>
+        <li>
+          <strong>After 12 months</strong>, the credit and stored files are no longer kept, and returning is treated as a{" "}
+          <strong>new project with a fresh quote</strong>.
+        </li>
       </ul>
 
       <h2>Your project belongs to you</h2>

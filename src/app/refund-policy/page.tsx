@@ -163,6 +163,11 @@ export default function RefundPolicyPage() {
           The restarted project gets a <strong>new timeline</strong>{" "}based on my availability, and this same refund policy applies
           to it. The credited amount counts as work already done.
         </li>
+        <li>
+          <strong>After 12 months:</strong>{" "}the credit, any unclaimed refund and the stored project files{" "}
+          <strong>are no longer kept</strong>, and coming back is treated as a <strong>new project with a fresh quote</strong>. If you
+          think you may need more time, just tell me before the 12 months end and we&apos;ll find a way that works for you.
+        </li>
       </ul>
 
       <h2>After delivery and full payment</h2>
