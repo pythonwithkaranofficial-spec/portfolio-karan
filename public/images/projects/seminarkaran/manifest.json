@@ -1,0 +1,461 @@
+{
+  "site": "https://seminarkaran.vercel.app/",
+  "screenshots": [
+    {
+      "file": "about/desktop-full-page.jpg",
+      "width": 1432,
+      "height": 3276
+    },
+    {
+      "file": "about/desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "about/mobile-full-page.jpg",
+      "width": 427,
+      "height": 5623
+    },
+    {
+      "file": "about/mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "book/desktop-full-page.jpg",
+      "width": 1432,
+      "height": 2188
+    },
+    {
+      "file": "book/desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "book/mobile-full-page.jpg",
+      "width": 382,
+      "height": 3690
+    },
+    {
+      "file": "book/mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "book--social-media-are-you-using-it/desktop-section-01.jpg",
+      "width": 658,
+      "height": 485
+    },
+    {
+      "file": "book--social-media-are-you-using-it/desktop-section-02.jpg",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "book--social-media-are-you-using-it/desktop-section-03.jpg",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "book--social-media-are-you-using-it/desktop-section-04.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "book--social-media-are-you-using-it/desktop-viewport.jpg",
+      "width": 463,
+      "height": 1000
+    },
+    {
+      "file": "book--social-media-are-you-using-it/mobile-full-page.jpg",
+      "width": 382,
+      "height": 3690
+    },
+    {
+      "file": "book--social-media-are-you-using-it/mobile-viewport.jpg",
+      "width": 382,
+      "height": 265
+    },
+    {
+      "file": "book--your-brain-is-not-weak/desktop-section-01.jpg",
+      "width": 658,
+      "height": 485
+    },
+    {
+      "file": "book--your-brain-is-not-weak/desktop-section-02.jpg",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "book--your-brain-is-not-weak/desktop-section-03.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "book--your-brain-is-not-weak/desktop-section-04.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "book--your-brain-is-not-weak/desktop-section-05.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "book--your-brain-is-not-weak/desktop-viewport.jpg",
+      "width": 463,
+      "height": 322
+    },
+    {
+      "file": "book--your-brain-is-not-weak/mobile-section-01.jpg",
+      "width": 89,
+      "height": 242
+    },
+    {
+      "file": "book--your-brain-is-not-weak/mobile-section-02.jpg",
+      "width": 390,
+      "height": 843
+    },
+    {
+      "file": "book--your-brain-is-not-weak/mobile-section-03.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "book--your-brain-is-not-weak/mobile-section-04.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "book--your-brain-is-not-weak/mobile-section-05.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "book--your-brain-is-not-weak/mobile-viewport.jpg",
+      "width": 382,
+      "height": 265
+    },
+    {
+      "file": "contact/desktop-full-page.jpg",
+      "width": 1432,
+      "height": 1608
+    },
+    {
+      "file": "contact/desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "contact/mobile-full-page.jpg",
+      "width": 382,
+      "height": 2768
+    },
+    {
+      "file": "contact/mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "Home/desktop-full-page.jpg",
+      "width": 1432,
+      "height": 5443
+    },
+    {
+      "file": "Home/desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "Home/mobile-full-page.jpg",
+      "width": 382,
+      "height": 9967
+    },
+    {
+      "file": "Home/mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "privacy/desktop-section-01.jpg",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "privacy/desktop-section-02.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "privacy/desktop-viewport.jpg",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "privacy/mobile-section-01.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "privacy/mobile-section-02.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "privacy/mobile-section-03.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "privacy/mobile-section-04.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "privacy/mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "projects/desktop-full-page.jpg",
+      "width": 1432,
+      "height": 1776
+    },
+    {
+      "file": "projects/desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "projects/mobile-full-page.jpg",
+      "width": 382,
+      "height": 3338
+    },
+    {
+      "file": "projects/mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "seminars/desktop-full-page.jpg",
+      "width": 1432,
+      "height": 3643
+    },
+    {
+      "file": "seminars/desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "seminars/mobile-full-page.jpg",
+      "width": 412,
+      "height": 6715
+    },
+    {
+      "file": "seminars/mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/desktop-full-page.jpg",
+      "width": 1432,
+      "height": 2891
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/desktop-section-01.jpg",
+      "width": 498,
+      "height": 367
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/desktop-section-02.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/desktop-section-03.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/desktop-viewport.jpg",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/mobile-section-01.jpg",
+      "width": 75,
+      "height": 204
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/mobile-section-02.jpg",
+      "width": 390,
+      "height": 843
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/mobile-section-03.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/mobile-section-04.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/mobile-section-05.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/mobile-section-06.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "seminars--social-media-are-you-using-it/mobile-viewport.jpg",
+      "width": 382,
+      "height": 265
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/desktop-section-01.jpg",
+      "width": 495,
+      "height": 365
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/desktop-section-02.jpg",
+      "width": 1357,
+      "height": 1000
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/desktop-section-03.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/desktop-section-04.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/desktop-section-05.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/desktop-section-06.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/desktop-section-07.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/desktop-section-08.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/mobile-section-01.jpg",
+      "width": 75,
+      "height": 204
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/mobile-section-02.jpg",
+      "width": 390,
+      "height": 843
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/mobile-section-03.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/mobile-section-04.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/mobile-section-05.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/mobile-section-06.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "seminars--your-brain-is-not-weak/mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "terms/desktop-section-01.jpg",
+      "width": 463,
+      "height": 1000
+    },
+    {
+      "file": "terms/desktop-section-02.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "terms/desktop-viewport.jpg",
+      "width": 463,
+      "height": 1000
+    },
+    {
+      "file": "terms/mobile-section-01.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "terms/mobile-section-02.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "terms/mobile-section-03.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "terms/mobile-section-04.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "terms/mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "file": "youtube/desktop-full-page.jpg",
+      "width": 1432,
+      "height": 2905
+    },
+    {
+      "file": "youtube/desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "file": "youtube/mobile-full-page.jpg",
+      "width": 382,
+      "height": 4480
+    },
+    {
+      "file": "youtube/mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    }
+  ],
+  "notes": "Desktop 1440x1000 and mobile 390x844 requested viewports. Full-page captures where supported; numbered overlapping sections used when full-page capture failed. Includes 11 page routes and 2 seminar-specific booking views."
+}

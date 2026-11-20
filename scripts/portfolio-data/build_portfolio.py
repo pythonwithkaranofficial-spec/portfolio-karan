@@ -184,6 +184,13 @@ MORE = [
     ("Dhanlaxmi Textiles", "webapp", "in-progress", "Client project: wholesale and retail textile e-commerce with dealer portal", "Dhanlaxmi Textiles"),
 ]
 
+# Display order on the site: apps first in the owner's chosen sequence, then the rest.
+ORDER = ["pythonwithkaran", "periodic-table-explorer", "purple-monster", "smart-paper-generator", "fontzyle",
+         "pyboss", "ncert-math-formulas", "blink-and-remember", "mithai-merge", "tallhour", "klipnest", "abeeloo",
+         "kirana-store-tycoon", "school-masti-mania", "school-masti-3d", "holefeast",
+         "dadawala-clothing-shop", "business-website-designs", "reasonmaster-india", "seminarkaran", "pocket-arcade", "app-legal-portal"]
+PROJECTS.sort(key=lambda p: ORDER.index(p["slug"]) if p["slug"] in ORDER else len(ORDER))
+
 def tech_list(t):
     """Inventory tech may be a list or a comma string; split on commas outside brackets."""
     if isinstance(t, list):

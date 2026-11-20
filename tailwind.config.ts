@@ -6,7 +6,8 @@ const config: Config = {
   content: ["./src/**/*.{ts,tsx,mdx}"],
   darkMode: "class",
   theme: {
-    container: { center: true, padding: { DEFAULT: "1rem", sm: "1.5rem" }, screens: { xl: "1120px" } },
+    // Full-width layout: the page spans the whole screen with comfortable side padding.
+    container: { center: true, padding: { DEFAULT: "1rem", sm: "1.5rem", lg: "2.5rem", "2xl": "4rem" }, screens: {} },
     extend: {
       colors: {
         bg: v("bg"),

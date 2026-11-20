@@ -17,9 +17,9 @@ export default function Home() {
       {/* Intro */}
       <section className="container pb-14 pt-12 sm:pt-20">
         <div className="flex flex-col-reverse gap-8 sm:flex-row sm:items-center sm:justify-between">
-          <div className="max-w-2xl">
+          <div className="max-w-2xl xl:max-w-4xl">
             <p className="eyebrow mb-4">{PROFILE.role}</p>
-            <h1 className="text-[2rem] font-semibold leading-[1.15] tracking-tight sm:text-5xl">
+            <h1 className="text-[2rem] font-semibold leading-[1.15] tracking-tight sm:text-5xl xl:text-6xl">
               Hi, I&apos;m {PROFILE.name.split(" ")[0]}. I build websites and Android apps that businesses actually use.
             </h1>
             <p className="mt-5 text-base leading-relaxed text-muted sm:text-lg">{PROFILE.intro}</p>
@@ -33,10 +33,10 @@ export default function Home() {
           <Image
             src={PROFILE.photo}
             alt={PROFILE.name}
-            width={220}
-            height={220}
+            width={300}
+            height={300}
             priority
-            className="h-28 w-28 shrink-0 rounded-full bg-surface object-cover sm:h-52 sm:w-52"
+            className="h-28 w-28 shrink-0 rounded-full bg-surface object-cover sm:h-52 sm:w-52 xl:h-72 xl:w-72"
           />
         </div>
         <dl className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-xl2 border border-line bg-line sm:grid-cols-4">

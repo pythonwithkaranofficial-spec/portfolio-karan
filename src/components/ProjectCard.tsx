@@ -12,7 +12,7 @@ function Preview({ p }: { p: Project }) {
         src={desktop.src}
         alt={`${p.name} preview`}
         fill
-        sizes="(min-width: 1024px) 360px, (min-width: 640px) 50vw, 100vw"
+        sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
         className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
       />
     );
@@ -52,7 +52,7 @@ export default function ProjectCard({ p }: { p: Project }) {
         <div className="flex items-start gap-3">
           {p.icon && <Image src={p.icon} alt="" width={40} height={40} className="h-10 w-10 shrink-0 rounded-xl border border-line" />}
           <div className="min-w-0">
-            <h3 className="truncate font-semibold">{p.name}</h3>
+            <h3 className="line-clamp-2 font-semibold leading-snug">{p.name}</h3>
             <p className="text-xs text-muted">
               {KIND_LABEL[p.kind]}
               {p.client ? " · Client project" : ""}

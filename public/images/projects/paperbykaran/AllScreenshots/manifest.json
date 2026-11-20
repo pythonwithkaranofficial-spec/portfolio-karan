@@ -1,0 +1,222 @@
+{
+  "site": "https://paperbykaran.vercel.app",
+  "coverage": "Screenshots of all seven linked public routes and the sign-in, registration, password recovery, and default syllabus blueprint views. Generate, GenerateCustom, and GetAnswerKey show authentication-required screens. Their inner tools and any signed-in pages remain uncaptured. Syllabus captures show the default subject, not every class/subject combination. Website source was not found in the current workspace.",
+  "screenshots": [
+    {
+      "screen": "CreateAccount",
+      "file": "CreateAccount--desktop.jpg",
+      "width": 463,
+      "height": 1000
+    },
+    {
+      "screen": "CreateAccount",
+      "file": "CreateAccount--mobile.jpg",
+      "width": 390,
+      "height": 271
+    },
+    {
+      "screen": "Generate",
+      "file": "Generate--desktop-full-page.jpg",
+      "width": 1432,
+      "height": 1193
+    },
+    {
+      "screen": "Generate",
+      "file": "Generate--desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "screen": "Generate",
+      "file": "Generate--mobile-full-page.jpg",
+      "width": 382,
+      "height": 1436
+    },
+    {
+      "screen": "Generate",
+      "file": "Generate--mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "screen": "GenerateCustom",
+      "file": "GenerateCustom--desktop-full-page.jpg",
+      "width": 1432,
+      "height": 1193
+    },
+    {
+      "screen": "GenerateCustom",
+      "file": "GenerateCustom--desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "screen": "GenerateCustom",
+      "file": "GenerateCustom--mobile-full-page.jpg",
+      "width": 382,
+      "height": 1436
+    },
+    {
+      "screen": "GenerateCustom",
+      "file": "GenerateCustom--mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "screen": "GetAnswerKey",
+      "file": "GetAnswerKey--desktop-full-page.jpg",
+      "width": 1432,
+      "height": 1317
+    },
+    {
+      "screen": "GetAnswerKey",
+      "file": "GetAnswerKey--desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "screen": "GetAnswerKey",
+      "file": "GetAnswerKey--mobile-full-page.jpg",
+      "width": 382,
+      "height": 1513
+    },
+    {
+      "screen": "GetAnswerKey",
+      "file": "GetAnswerKey--mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "screen": "Home",
+      "file": "Home--desktop-full-page.jpg",
+      "width": 1432,
+      "height": 5240
+    },
+    {
+      "screen": "Home",
+      "file": "Home--desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "screen": "Home",
+      "file": "Home--mobile-full-page.jpg",
+      "width": 382,
+      "height": 9880
+    },
+    {
+      "screen": "Home",
+      "file": "Home--mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "screen": "Privacy",
+      "file": "Privacy--desktop-full-page.jpg",
+      "width": 1432,
+      "height": 2369
+    },
+    {
+      "screen": "Privacy",
+      "file": "Privacy--desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "screen": "Privacy",
+      "file": "Privacy--mobile-full-page.jpg",
+      "width": 382,
+      "height": 3524
+    },
+    {
+      "screen": "Privacy",
+      "file": "Privacy--mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "screen": "ResetPassword",
+      "file": "ResetPassword--desktop.jpg",
+      "width": 463,
+      "height": 1000
+    },
+    {
+      "screen": "ResetPassword",
+      "file": "ResetPassword--mobile.jpg",
+      "width": 390,
+      "height": 271
+    },
+    {
+      "screen": "SignIn",
+      "file": "SignIn--desktop.jpg",
+      "width": 1440,
+      "height": 810
+    },
+    {
+      "screen": "SignIn",
+      "file": "SignIn--mobile.jpg",
+      "width": 390,
+      "height": 271
+    },
+    {
+      "screen": "Syllabus",
+      "file": "Syllabus--desktop-blueprint-full-page.jpg",
+      "width": 1432,
+      "height": 2255
+    },
+    {
+      "screen": "Syllabus",
+      "file": "Syllabus--desktop-full-page.jpg",
+      "width": 1432,
+      "height": 1828
+    },
+    {
+      "screen": "Syllabus",
+      "file": "Syllabus--desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "screen": "Syllabus",
+      "file": "Syllabus--mobile-blueprint-full-page.jpg",
+      "width": 382,
+      "height": 3825
+    },
+    {
+      "screen": "Syllabus",
+      "file": "Syllabus--mobile-full-page.jpg",
+      "width": 382,
+      "height": 3272
+    },
+    {
+      "screen": "Syllabus",
+      "file": "Syllabus--mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    },
+    {
+      "screen": "Terms",
+      "file": "Terms--desktop-full-page.jpg",
+      "width": 1432,
+      "height": 2368
+    },
+    {
+      "screen": "Terms",
+      "file": "Terms--desktop-viewport.jpg",
+      "width": 1432,
+      "height": 994
+    },
+    {
+      "screen": "Terms",
+      "file": "Terms--mobile-full-page.jpg",
+      "width": 382,
+      "height": 3520
+    },
+    {
+      "screen": "Terms",
+      "file": "Terms--mobile-viewport.jpg",
+      "width": 382,
+      "height": 826
+    }
+  ]
+}
