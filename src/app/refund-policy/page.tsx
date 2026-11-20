@@ -44,21 +44,53 @@ export default function RefundPolicyPage() {
       <h2>If you need to stop the project midway</h2>
       <p>
         Sometimes plans change, and that&apos;s completely okay. Because each project is custom-built and work starts as soon as it
-        is confirmed, a part of the amount paid covers the time and effort already spent:
+        is confirmed, a part of the amount paid covers the time and effort already spent. To keep it{" "}
+        <strong>simple and clear</strong>, the stage is decided by <strong>what you have already received from me</strong>:
       </p>
       <ul>
         <li>
-          <strong>Early stage</strong>{" "}(planning, design or first screens done): you receive <strong>70% of the amount paid</strong>{" "}
-          back. 30% covers the work already completed.
+          <strong>Early stage — before the first demo is shared</strong>{" "}(planning and design in progress): you receive{" "}
+          <strong>70% of the amount paid</strong>{" "}back. 30% covers the work already done.
         </li>
         <li>
-          <strong>Later stage</strong>{" "}(a large part of the development is done): depending on how much has been completed,{" "}
-          <strong>30% to 50% of the amount paid</strong>{" "}covers the work done, and <strong>the rest is refunded</strong>{" "}to you.
-          I&apos;ll show you exactly what has been built so the amount is clear and fair.
+          <strong>Middle stage — after the first demo is shared</strong>{" "}(you have seen the main screens as a demo link or APK):
+          you receive <strong>60% of the amount paid</strong>{" "}back. 40% covers the work done.
+        </li>
+        <li>
+          <strong>Later stage — after the test version is shared</strong>{" "}(most features are working and you can try them): you
+          receive <strong>50% of the amount paid</strong>{" "}back. 50% covers the work done.
+        </li>
+        <li>
+          Every demo and test version is sent to you on WhatsApp or email with the date, so{" "}
+          <strong>we both always know which stage the project is in</strong>.
         </li>
         <li>
           In both cases, <strong>you keep everything completed so far</strong>{" "}— designs, files and code — so your money is never
           wasted and you can continue later with me or anyone else.
+        </li>
+      </ul>
+
+      <h2>If we lose touch during the project</h2>
+      <p>
+        Life gets busy, and that&apos;s understandable. To keep your project moving, I need your replies, feedback and content
+        (logos, photos, text) along the way.
+      </p>
+      <ul>
+        <li>
+          If I don&apos;t hear back from you, I&apos;ll send <strong>friendly reminders</strong>{" "}on WhatsApp and email.
+        </li>
+        <li>
+          If there is <strong>no response for 30 days</strong>, the project is <strong>paused</strong>{" "}and treated as{" "}
+          <strong>stopped at its current stage</strong>, using the stages above. The amount for the work already done is kept, and
+          you can ask for the refund of the rest at any time within 12 months.
+        </li>
+        <li>
+          Whenever you&apos;re ready, you&apos;re <strong>welcome to continue</strong>{" "}— everything you paid for the work done is{" "}
+          <strong>fully credited</strong>, exactly as explained in <a href="#resume">Coming back to a paused project</a>.
+        </li>
+        <li>
+          Delays caused by waiting for your replies or content <strong>extend the delivery date</strong>{" "}by the same number of
+          days.
         </li>
       </ul>
 

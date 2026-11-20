@@ -56,8 +56,16 @@ export default function TermsPage() {
       <h2>Pausing and coming back to a project</h2>
       <ul>
         <li>
-          You can <strong>stop a project midway</strong>; the refund depends on how much work is done, as explained in the{" "}
-          <Link href="/refund-policy">Refund Policy</Link>.
+          You can <strong>stop a project midway</strong>. You get back <strong>70%</strong>{" "}of the amount paid before the first
+          demo, <strong>60%</strong>{" "}after the first demo, and <strong>50%</strong>{" "}after the test version is shared, as
+          explained in the <Link href="/refund-policy">Refund Policy</Link>.
+        </li>
+        <li>
+          If there is <strong>no response from you for 30 days</strong>, the project is <strong>paused</strong>{" "}at its current
+          stage, after friendly reminders. You can continue anytime within 12 months with your payment fully credited.
+        </li>
+        <li>
+          Waiting time for your replies or content <strong>extends the delivery date</strong>{" "}by the same number of days.
         </li>
         <li>
           If you return later, <strong>the amount that covered completed work is fully credited</strong>{" "}— you never pay twice for
