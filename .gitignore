@@ -31,3 +31,8 @@ yarn-error.log*
 # raw screenshot captures used by scripts/portfolio-data/build_portfolio.py
 scripts/portfolio-data/caps/
 scripts/portfolio-data/inv_*.json
+# old screenshot folders kept locally, not used by the site
+public/images/projects/paperbykaran/
+public/images/projects/pythonwithkaran/
+public/images/projects/seminarkaran/
+public/images/projects/pythonwithkaran-icon.png
